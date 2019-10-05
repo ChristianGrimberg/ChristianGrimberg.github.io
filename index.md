@@ -1,4 +1,4 @@
-## Welcome to my GitHub Pages
+## Welcome to my GitHub Page
 
 <!--You can use the [editor on GitHub](https://github.com/ChristianGrimberg/ChristianGrimberg.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.-->
 
