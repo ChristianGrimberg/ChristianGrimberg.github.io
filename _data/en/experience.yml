@@ -1,0 +1,10 @@
+# Professional Experience
+- company: Pharmaceutical Industry (Enterprise IT)
+  position: Solutions Architect & Senior Software Engineer
+  duration: 2014 &mdash; Present
+  summary: Leading enterprise architecture initiatives with focus on .NET 10, cloud infrastructure, and AI integration. Designing and implementing scalable solutions using Clean Architecture and Domain-Driven Design principles. Managing DevOps automation, CI/CD pipelines with GitHub Actions, and Azure cloud infrastructure (App Service, SQL Database, Container Apps). Orchestrating AI agents for enhanced developer productivity and business process automation.
+
+- company: Pharmaceutical Industry
+  position: Systems Administrator & IT Specialist
+  duration: 2012 &mdash; 2014
+  summary: Administered enterprise IT infrastructure including servers, databases, and network systems. Implemented automation solutions using PowerShell and Bash scripting. Managed SQL Server databases and ensured high availability and disaster recovery. Provided technical support and training to end users.

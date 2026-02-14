@@ -1,0 +1,10 @@
+# Experiencia Profesional
+- company: Industria Farmacéutica (TI Empresarial)
+  position: Arquitecto de Soluciones e Ingeniero de Software Senior
+  duration: 2014 &mdash; Presente
+  summary: Liderando iniciativas de arquitectura empresarial con enfoque en .NET 10, infraestructura en la nube e integración de IA. Diseñando e implementando soluciones escalables utilizando principios de Arquitectura Limpia y Diseño Orientado al Dominio. Gestionando automatización DevOps, pipelines CI/CD con GitHub Actions e infraestructura en la nube de Azure (App Service, SQL Database, Container Apps). Orquestando agentes de IA para mejorar la productividad de desarrolladores y automatización de procesos de negocio.
+
+- company: Industria Farmacéutica
+  position: Administrador de Sistemas y Especialista en TI
+  duration: 2012 &mdash; 2014
+  summary: Administré infraestructura de TI empresarial incluyendo servidores, bases de datos y sistemas de red. Implementé soluciones de automatización usando scripts de PowerShell y Bash. Gestioné bases de datos SQL Server asegurando alta disponibilidad y recuperación ante desastres. Brindé soporte técnico y capacitación a usuarios finales.

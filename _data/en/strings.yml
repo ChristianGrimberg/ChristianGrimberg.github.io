@@ -1,0 +1,22 @@
+# UI strings in English
+site_title: "Christian Grimberg - Resume"
+job_title: "Senior Software Engineer & Solutions Architect"
+executive_summary: "<p>Systems Administrator and Solutions Architect with over 10 years of experience in the pharmaceutical industry. Passionate about technology, automation, cloud computing, artificial intelligence, and continuous improvement. Currently focused on Enterprise Architecture with .NET 10, AI Agent Orchestration, DevOps automation, and cloud infrastructure.</p>"
+contact_button: "Contact me"
+not_looking: "I'm not looking for work right now."
+
+# Section headers
+section_experience: "Professional Experience"
+section_education: "Education"
+section_projects: "Featured Projects"
+section_skills: "Technical Skills"
+section_recognition: "Certifications & Recognition"
+section_links: "Additional Links"
+section_social: "Social Links"
+section_associations: "Associations"
+section_interests: "Outside Interests"
+
+# Other
+language_name: "English"
+switch_to: "Cambiar a Español"
+download_pdf: "Download PDF"

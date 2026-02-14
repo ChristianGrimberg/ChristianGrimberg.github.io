@@ -1,0 +1,16 @@
+# Proyectos Destacados
+- project: Sistema de Contexto para Agentes de IA
+  role: Creador y Mantenedor
+  duration: 2024 &mdash; Presente
+  url: "https://github.com/ChristianGrimberg/ChristianGrimberg"
+  description: Desarrollé AGENTS.md - un sistema de contexto integral para agentes de IA que define estándares de código, preferencias tecnológicas y opciones arquitectónicas. Este enfoque innovador permite a los asistentes de IA proporcionar asistencia más contextual y alineada en proyectos de software.
+
+- project: Soluciones Empresariales .NET
+  role: Arquitecto Principal y Desarrollador
+  duration: 2018 &mdash; Presente
+  description: Arquitecturé y desarrollé múltiples aplicaciones de nivel empresarial usando .NET, implementando patrones de Arquitectura Limpia y DDD. Construí microservicios escalables con infraestructura en la nube de Azure, pipelines CI/CD automatizados e integré capacidades de IA para optimización de procesos de negocio.
+
+- project: Framework de Automatización DevOps
+  role: Creador
+  duration: 2020 &mdash; Presente
+  description: Creé frameworks integrales de automatización en PowerShell y Bash para aprovisionamiento de infraestructura, automatización de despliegues y monitoreo de sistemas. Reduje significativamente los tiempos de despliegue y mejoré la confiabilidad del sistema mediante prácticas de Infraestructura como Código.

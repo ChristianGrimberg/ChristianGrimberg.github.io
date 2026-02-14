@@ -1,0 +1,22 @@
+# UI strings in Spanish
+site_title: "Christian Grimberg - Curriculum Vitae"
+job_title: "Ingeniero de Software Senior y Arquitecto de Soluciones"
+executive_summary: "<p>Administrador de Sistemas y Arquitecto de Soluciones con más de 10 años de experiencia en la industria farmacéutica. Apasionado por la tecnología, la automatización, la computación en la nube, la inteligencia artificial y la mejora continua. Actualmente enfocado en Arquitectura Empresarial con .NET 10, Orquestación de Agentes de IA, automatización DevOps e infraestructura en la nube.</p>"
+contact_button: "Contáctame"
+not_looking: "No estoy buscando trabajo en este momento."
+
+# Section headers
+section_experience: "Experiencia Profesional"
+section_education: "Educación"
+section_projects: "Proyectos Destacados"
+section_skills: "Habilidades Técnicas"
+section_recognition: "Certificaciones y Reconocimientos"
+section_links: "Enlaces Adicionales"
+section_social: "Enlaces Sociales"
+section_associations: "Asociaciones"
+section_interests: "Intereses Personales"
+
+# Other
+language_name: "Español"
+switch_to: "Switch to English"
+download_pdf: "Descargar PDF"

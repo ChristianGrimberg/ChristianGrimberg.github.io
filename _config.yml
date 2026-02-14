@@ -1,0 +1,60 @@
+# Site settings
+title: "Christian Grimberg - Resume / CV"
+description: "Professional resume of Christian Grimberg - Senior Software Engineer & Solutions Architect"
+baseurl: "" # for GitHub Pages user site
+url: "https://christiangrimberg.github.io"
+
+# Build settings
+markdown: kramdown
+theme: null  # Explicitly disable theme to prevent GitHub Pages from applying defaults
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Default language
+lang: en
+languages: ["en", "es"]
+
+# Resume settings
+resume_avatar: "true"
+resume_name: "Christian Grimberg"
+
+# Contact information
+resume_contact_email: "christian.grimberg@outlook.com"
+resume_contact_telephone: ""
+resume_contact_address: "Buenos Aires, Argentina"
+
+# Display settings
+display_header_contact_info: "false"
+
+# Looking for work status
+resume_looking_for_work: "yes"
+
+# Decide which sections to use
+resume_section_experience: true
+resume_section_education: true
+resume_section_projects: true
+resume_section_skills: true
+resume_section_recognition: true
+resume_section_links: true
+resume_section_associations: false
+resume_section_interests: false
+
+# Resume social links
+resume_social_links:
+  resume_github_url: "https://github.com/ChristianGrimberg"
+  resume_linkedin_url: "https://www.linkedin.com/in/christiangrimberg"
+  resume_website_url: "https://christiangrimberg.github.io"
+resume_print_social_links: true
+
+# Design settings
+resume_theme: default
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - AGENTS.md
+  - .gitignore

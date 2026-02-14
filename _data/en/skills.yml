@@ -1,0 +1,18 @@
+# Technical Skills
+- skill: Backend Development
+  description: Expert in .NET 10 (bleeding edge), C#, Go, and C/C++. Strong focus on Clean Architecture, Domain-Driven Design (DDD), SOLID principles, and CQRS with MediatR. Experienced with Dependency Injection and microservices.
+
+- skill: DevOps & Automation
+  description: PowerShell Core (pwsh) 7+, Bash scripting, GitHub Actions CI/CD, Docker, Kubernetes, and Infrastructure as Code. Philosophy of "Everything as Code" and automation-first approach.
+
+- skill: Cloud Infrastructure
+  description: Microsoft Azure specialist (App Service, SQL Database, Container Apps, Azure Functions). Experienced in designing and deploying scalable cloud solutions with high availability.
+
+- skill: Databases
+  description: SQL Server 2022+, PostgreSQL, MariaDB. Entity Framework Core (Code First and Database First). Database design, optimization, and administration.
+
+- skill: AI Integration
+  description: AI Agent Orchestration, GitHub Copilot, Google Gemini integration. Focused on enhancing developer productivity through AI-powered tools and automation.
+
+- skill: Testing & Quality
+  description: xUnit, Moq, FluentAssertions. Strong emphasis on test-driven development, code quality, and maintaining high standards with zero tolerance for linter errors.
