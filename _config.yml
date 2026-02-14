@@ -44,7 +44,7 @@ resume_section_interests: false
 resume_social_links:
   resume_github_url: "https://github.com/ChristianGrimberg"
   resume_linkedin_url: "https://www.linkedin.com/in/christiangrimberg"
-  resume_website_url: "https://christiangrimberg.github.io"
+#  resume_website_url: "https://christiangrimberg.github.io"
 resume_print_social_links: true
 
 # Design settings
