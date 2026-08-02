@@ -1,0 +1,25 @@
+# Dependabot configuration
+# Groups Bundler updates into a single weekly PR so changes land atomically
+# instead of the historical one-PR-per-gem pattern (which produced #4/#5
+# cross-conflicts on the json line in Gemfile.lock).
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    # Group all non-major bumps into a single PR
+    groups:
+      minor-and-patch:
+        applies-to: version-updates
+        update-types:
+          - minor
+          - patch
+    # Keep major bumps as standalone PRs so they get explicit review
+    # (default behavior when groups are defined but no match)
+    labels:
+      - "dependencies"
+      - "ruby"
+    commit-message:
+      prefix: ":arrow_up:"
