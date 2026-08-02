@@ -1,6 +1,6 @@
 # Site settings
 title: "Christian Grimberg - Resume / CV"
-description: "Professional resume of Christian Grimberg - Systems Administrator & Solutions Architect "
+description: "Professional resume of Christian Grimberg - Head of Systems & Solutions Architect"
 baseurl: "" # for GitHub Pages user site
 url: "https://christiangrimberg.github.io"
 
@@ -28,7 +28,11 @@ resume_contact_address: "Buenos Aires, Argentina"
 display_header_contact_info: "false"
 
 # Looking for work status
-resume_looking_for_work: "yes"
+# Options:
+#   "yes" -> show the "Contact me" CTA button
+#   "no"  -> show the "I'm not looking for work" banner
+#   ""    -> show neither (user is open to opportunities but wants no public CTA)
+resume_looking_for_work: ""
 
 # Decide which sections to use
 resume_section_experience: true

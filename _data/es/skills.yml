@@ -1,18 +1,47 @@
 # Habilidades Técnicas
-- skill: Desarrollo Backend
-  description: Experto en .NET 10 (última versión), C#, Go y C/C++. Fuerte enfoque en Arquitectura Limpia, Diseño Orientado al Dominio (DDD), principios SOLID y CQRS con MediatR. Experiencia con Inyección de Dependencias y microservicios.
+- skill: "Soluciones Cloud (IaaS, PaaS, SaaS e IaC)"
+  description: >
+    Especialista en Microsoft Azure para el diseño e implementación de
+    soluciones de infraestructura Cloud e híbrida escalables.
 
-- skill: DevOps y Automatización
-  description: PowerShell Core (pwsh) 7+, scripting en Bash, CI/CD con GitHub Actions, Docker, Kubernetes e Infraestructura como Código. Filosofía de "Todo como Código" y enfoque de automatización primero.
+- skill: "Desarrollo de Software (.NET Core y Go)"
+  description: >
+    Desarrollo backend y de aplicaciones utilizando .NET Core y Go,
+    incluyendo buenas prácticas de código limpio e ingeniería de
+    software moderna.
 
-- skill: Infraestructura en la Nube
-  description: Especialista en Microsoft Azure (App Service, SQL Database, Container Apps, Azure Functions). Experiencia en diseño e implementación de soluciones cloud escalables con alta disponibilidad.
+- skill: "Bases de Datos (SQL Server y MariaDB/MySQL)"
+  description: >
+    Administración y desarrollo de bases de datos relacionales con
+    SQL Server y MariaDB/MySQL, incluyendo ORM con Entity Framework
+    Core.
 
-- skill: Bases de Datos
-  description: SQL Server 2022+, PostgreSQL, MariaDB. Entity Framework Core (Code First y Database First). Diseño, optimización y administración de bases de datos.
+- skill: "Soluciones IoT"
+  description: >
+    Desarrollo de soluciones IoT con Arduino, integrando dispositivos
+    físicos con sistemas de software.
 
-- skill: Integración de IA
-  description: Orquestación de Agentes de IA, GitHub Copilot, integración con Google Gemini. Enfocado en mejorar la productividad del desarrollador mediante herramientas y automatización potenciadas por IA.
+- skill: "Networking (Cisco, Fortinet y Watchguard)"
+  description: >
+    Administración de redes con switches Cisco, routers Fortinet y
+    firewalls Watchguard.
 
-- skill: Testing y Calidad
-  description: xUnit, Moq, FluentAssertions. Fuerte énfasis en desarrollo guiado por pruebas, calidad de código y mantenimiento de altos estándares con tolerancia cero a errores de linter.
+- skill: "Contenedores y Orquestación"
+  description: >
+    Despliegue de contenedores Docker en producción. Orquestación con
+    Docker Swarm en producción y Kubernetes como interés personal.
+
+- skill: "Administración de Servidores"
+  description: >
+    Administración de parques de Windows Server y Linux (Ubuntu Server,
+    CentOS), incluyendo instalación, hardening y mantenimiento continuo.
+
+- skill: "Control de Versiones y Toolchain DevOps"
+  description: >
+    Ciclo de vida de Desarrollo de Software con Git, Azure DevOps,
+    GitHub Actions, GitHub Packages y GitHub Registry.
+
+- skill: "Scripting (PowerShell y GNU Bash)"
+  description: >
+    Automatización de tareas operativas y de despliegue repetitivas
+    mediante scripting con PowerShell y GNU Bash Shell.

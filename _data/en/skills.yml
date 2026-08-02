@@ -1,18 +1,27 @@
 # Technical Skills
-- skill: Backend Development
-  description: Expert in .NET 10 (bleeding edge), C#, Go, and C/C++. Strong focus on Clean Architecture, Domain-Driven Design (DDD), SOLID principles, and CQRS with MediatR. Experienced with Dependency Injection and microservices.
+- skill: Cloud Solutions (IaaS, PaaS, SaaS & IaC)
+  description: Specialist in Microsoft Azure for designing and implementing scalable Cloud and hybrid infrastructure solutions.
 
-- skill: DevOps & Automation
-  description: PowerShell Core (pwsh) 7+, Bash scripting, GitHub Actions CI/CD, Docker, Kubernetes, and Infrastructure as Code. Philosophy of "Everything as Code" and automation-first approach.
+- skill: Software Development (.NET Core & Go)
+  description: Backend and application development using .NET Core and Go, including clean code practices and modern software engineering principles.
 
-- skill: Cloud Infrastructure
-  description: Microsoft Azure specialist (App Service, SQL Database, Container Apps, Azure Functions). Experienced in designing and deploying scalable cloud solutions with high availability.
+- skill: Databases (SQL Server & MariaDB/MySQL)
+  description: Administration and development of relational databases with SQL Server and MariaDB/MySQL, including ORM with Entity Framework Core.
 
-- skill: Databases
-  description: SQL Server 2022+, PostgreSQL, MariaDB. Entity Framework Core (Code First and Database First). Database design, optimization, and administration.
+- skill: IoT Solutions
+  description: Development of IoT solutions with Arduino, integrating physical devices with software systems.
 
-- skill: AI Integration
-  description: AI Agent Orchestration, GitHub Copilot, Google Gemini integration. Focused on enhancing developer productivity through AI-powered tools and automation.
+- skill: Networking (Cisco, Fortinet & Watchguard)
+  description: Network administration with Cisco switches, Fortinet routers, and Watchguard firewalls.
 
-- skill: Testing & Quality
-  description: xUnit, Moq, FluentAssertions. Strong emphasis on test-driven development, code quality, and maintaining high standards with zero tolerance for linter errors.
+- skill: Containers & Orchestration
+  description: Deployment of Docker containers in production. Orchestration with Docker Swarm in production and Kubernetes as a personal interest.
+
+- skill: Server Administration
+  description: Administration of Windows Server and Linux (Ubuntu Server, CentOS) fleets, including installation, hardening, and ongoing maintenance.
+
+- skill: Source Control & DevOps Toolchain
+  description: Software development lifecycle with Git, Azure DevOps, GitHub Actions, GitHub Packages, and GitHub Registry.
+
+- skill: Scripting (PowerShell & GNU Bash)
+  description: Automation of repetitive operational and deployment tasks through PowerShell and GNU Bash Shell scripting.

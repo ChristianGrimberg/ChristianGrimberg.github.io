@@ -1,10 +1,24 @@
 # Professional Experience
-- company: Pharmaceutical Industry (Enterprise IT)
-  position: Solutions Architect & Senior Software Engineer
-  duration: 2014 &mdash; Present
-  summary: Leading enterprise architecture initiatives with focus on .NET 10, cloud infrastructure, and AI integration. Designing and implementing scalable solutions using Clean Architecture and Domain-Driven Design principles. Managing DevOps automation, CI/CD pipelines with GitHub Actions, and Azure cloud infrastructure (App Service, SQL Database, Container Apps). Orchestrating AI agents for enhanced developer productivity and business process automation.
+- company: "Laboratorios NOVOCAP S.A. (Buenos Aires, Argentina)"
+  position: "Maintenance Operator - Electromechanical Technician"
+  duration: "January 2006 &mdash; March 2009"
+  summary: >
+    Electromechanical installations in technical areas. Coordinated
+    maintenance of industrial equipment. Supervision and coordination
+    of technical suppliers.
 
-- company: Pharmaceutical Industry
-  position: Systems Administrator & IT Specialist
-  duration: 2012 &mdash; 2014
-  summary: Administered enterprise IT infrastructure including servers, databases, and network systems. Implemented automation solutions using PowerShell and Bash scripting. Managed SQL Server databases and ensured high availability and disaster recovery. Provided technical support and training to end users.
+- company: "Laboratorios NOVOCAP S.A. (Buenos Aires, Argentina)"
+  position: "Head of Systems & Solutions Architect"
+  duration: "March 2009 &mdash; Present"
+  summary: >
+    Alignment of technology strategy with business goals. Conceptual
+    vision of the organization's technology architecture. Identification
+    of IT process improvement opportunities. Design and development of
+    Cloud and hybrid infrastructure solutions with DevOps methodologies.
+    Administration of processes under pharmaceutical quality standards.
+    Building of high-performance teams through coaching and mentoring.
+    Leadership of software implementation projects. Participation in
+    the definition of strategy in agreement with the different business
+    units. Project administration under agile methodologies such as
+    SCRUM, Kanban Boards, Lean, Pair Programming, and Roadmap Projection.
+    Experience in roles such as Product Owner and Scrum Master.
