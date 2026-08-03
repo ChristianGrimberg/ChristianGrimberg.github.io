@@ -1,0 +1,52 @@
+# Exclude everything that shouldn't go into the Docker build context.
+# Without this, `COPY . .` would pull in the host's _site, .git, IDE state, etc.
+
+# Jekyll build output / cache
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Tool / agent state
+.hermes/
+.agents/
+.cursor/
+.aider*
+
+# VCS
+.git/
+.gitignore
+.gitattributes
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ruby / Bundler caches (rebuilt inside the image)
+vendor/bundle/
+.bundle/
+
+# Node (defensive)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
+
+# Env / secrets
+.env
+.env.*
+
+# Docs (Jekyll already excludes README.md via _config.yml)
+README.md
