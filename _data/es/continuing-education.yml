@@ -1,0 +1,121 @@
+# Formación Continua — subset curado (16 de 95 credenciales de LinkedIn)
+# Criterio de selección: certificaciones oficiales y badges de vendors,
+# formación especializada en industria farmacéutica, y programas largos
+# de liderazgo. Ordenado del más reciente al más antiguo por año.
+# Lista completa:
+# https://www.linkedin.com/in/christiangrimberg/details/certifications/
+
+# --- 2023 ---
+- name: "Introduction to ITSM"
+  organization: "Atlassian"
+  year: "2023"
+  summary: >-
+    Formación fundamental en prácticas de IT Service Management y el
+    enfoque de Atlassian.
+
+- name: "Carrera de Data Analytics"
+  organization: "Coderhouse"
+  year: "2023"
+  summary: >-
+    Carrera completa de Data Analytics (Excel, SQL, herramientas de BI,
+    estadística).
+
+- name: "Todo lo que debería saber sobre Integridad de Datos"
+  organization: "JENCK"
+  year: "2023"
+  summary: >-
+    Fundamentos de integridad de datos en la industria farmacéutica.
+
+- name: "Mantenimiento del estado de control"
+  organization: "OQOTECH"
+  year: "2023"
+  summary: >-
+    Mantenimiento del estado de control en sistemas farmacéuticos
+    computarizados.
+
+- name: "Análisis de requisitos y enfoque de validación para los Sistemas Informatizados"
+  organization: "OQOTECH"
+  year: "2023"
+  summary: >-
+    Análisis de requisitos y enfoque de validación para sistemas
+    informatizados.
+
+# --- 2021 ---
+- name: "Azure DevOps Professional Training"
+  organization: "MUG Asociación Civil (Microsoft User Group Argentina)"
+  year: "2021"
+  summary: >-
+    Capacitación profesional sobre servicios de Azure DevOps y
+    prácticas DevOps.
+
+- name: "Workshop Go desde cero"
+  organization: "Microsoft User Group Argentina"
+  year: "2021"
+  summary: >-
+    Workshop práctico de introducción al lenguaje de programación Go.
+
+# --- 2020 ---
+- name: "Optimización de procesos productivos a través de sistemas informáticos"
+  organization: "SAFYBI"
+  year: "2020"
+  summary: >-
+    Optimización de procesos productivos de la industria farmacéutica
+    mediante sistemas informáticos.
+
+# --- 2019 ---
+- name: "Integridad de Datos"
+  organization: "cGMPdoc"
+  year: "2019"
+  summary: >-
+    Principios de integridad de datos bajo marcos regulatorios cGMP.
+
+- name: "Ciclo de Vida de Sistemas Computarizados"
+  organization: "cGMPdoc"
+  year: "2019"
+  summary: >-
+    Ciclo de vida de validación de sistemas computarizados (alineado
+    a GAMP 5).
+
+- name: "Formación de Auditores"
+  organization: "cGMPdoc"
+  year: "2019"
+  summary: >-
+    Formación de auditores para sistemas computarizados regulados
+    por GxP.
+
+# --- 2014 ---
+- name: "Master en Sistemas"
+  organization: "CentralTECH"
+  year: "2014"
+  summary: >-
+    Programa integral de sistemas cubriendo infraestructura, redes y
+    administración.
+
+# --- 2013 ---
+- name: "Microsoft Active Professional"
+  organization: "Microsoft"
+  year: "2013"
+  summary: >-
+    Reconocimiento de comunidad por la participación activa en
+    comunidades y eventos técnicos de Microsoft.
+
+# --- 2012 ---
+- name: "Programa de Liderazgo de Equipos de Trabajo"
+  organization: "IDEA ARG"
+  year: "2012"
+  summary: >-
+    Programa ejecutivo de liderazgo y gestión de equipos de trabajo.
+
+# --- 2011 ---
+- name: "Oracle 11g DBA"
+  organization: "CentralTECH"
+  year: "2011"
+  summary: >-
+    Capacitación en administración de bases de datos Oracle 11g.
+
+- name: "Enterprise Asterisk Administrator"
+  organization: "CentralTECH"
+  year: "2011"
+  summary: >-
+    Administración de sistemas de telefonía empresarial basados en
+    Asterisk.
