@@ -1,15 +1,7 @@
 # Experiencia Profesional
 - company: "Laboratorios NOVOCAP S.A. (Buenos Aires, Argentina)"
-  position: "Operador de Mantenimiento - Técnico Electromecánico"
-  duration: "Enero 2006 &mdash; Marzo 2009"
-  summary: >
-    Instalaciones electromecánicas en áreas técnicas. Mantenimiento
-    coordinado de equipamiento industrial. Atención y supervisión de
-    proveedores técnicos.
-
-- company: "Laboratorios NOVOCAP S.A. (Buenos Aires, Argentina)"
   position: "Jefe de Sistemas & Arquitecto de Soluciones"
-  duration: "Marzo 2009 &mdash; Presente"
+  duration: "Febrero 2014 &mdash; Presente"
   summary: >
     Alineamiento de la estrategia tecnológica de acuerdo con los
     objetivos del negocio. Visión y conceptualización de la
@@ -26,3 +18,25 @@
     tales como Framework SCRUM, Kanban Boards, Lean, Pair Programming
     y Proyección de Roadmap. Experiencia en roles como Product Owner
     y Scrum Master.
+
+- company: "Laboratorios NOVOCAP S.A. (Buenos Aires, Argentina)"
+  position: "Supervisor de Sistemas"
+  duration: "Marzo 2009 &mdash; Febrero 2014"
+  summary: >
+    Coordinación del área de Sistemas, apoyando el alineamiento de
+    la estrategia tecnológica con los objetivos del negocio.
+    Supervisión operativa de la infraestructura tecnológica y de
+    los procesos de IT de la organización. Administración de
+    procesos bajo el cumplimiento de estándares de calidad
+    farmacéutica. Coordinación de proyectos de implementación de
+    Software y de proveedores técnicos. Puesta en marcha de las
+    prácticas de DevOps y de los esquemas de colaboración que
+    luego se consolidarían en el rol de Jefe de Sistemas.
+
+- company: "Laboratorios NOVOCAP S.A. (Buenos Aires, Argentina)"
+  position: "Operador de Mantenimiento - Técnico Electromecánico"
+  duration: "Enero 2006 &mdash; Marzo 2009"
+  summary: >
+    Instalaciones electromecánicas en áreas técnicas. Mantenimiento
+    coordinado de equipamiento industrial. Atención y supervisión de
+    proveedores técnicos.
