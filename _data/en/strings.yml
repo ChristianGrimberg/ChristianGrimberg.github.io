@@ -1,14 +1,14 @@
 # UI strings in English
 site_title: "Christian Grimberg - Resume"
 job_title: "Head of Systems & Solutions Architect"
-executive_summary: "<p>Head of Systems and Solutions Architect with over 20 years of experience at Laboratorios NOVOCAP S.A. in the pharmaceutical industry. Focused on continuous improvement through the use of technology and on delivering solutions that maximize value for the organization. Specialized in Cloud and hybrid infrastructure, software development with .NET Core and Go, network and server administration, and agile project leadership.</p>"
+executive_summary: "<p>Head of Systems and Solutions Architect with over 20 years of experience at Laboratorios Novocap S.A. in the pharmaceutical industry. Focused on continuous improvement through the use of technology and on delivering solutions that maximize value for the organization. Specialized in Cloud and hybrid infrastructure, network and server administration, and agile project leadership.</p>"
 contact_button: "Contact me"
 not_looking: "I'm not looking for work right now."
 
 # Section headers
 section_experience: "Professional Experience"
 section_education: "Education"
-section_continuing_education: "Continuing Education & Specialized Training"
+section_continuing_education: "Courses"
 section_projects: "Featured Projects"
 section_skills: "Technical Skills"
 section_recognition: "Certifications & Recognition"
