@@ -110,6 +110,29 @@
       {% endif %}
 
 
+      {% if site.resume_section_continuing_education %}
+      <!-- begin Continuing Education -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>{{ site.data[page.lang].strings.section_continuing_education }}</h2>
+        </header>
+
+        {% for course in site.data[page.lang].continuing_education %}
+        <div class="resume-item">
+          <h3 class="resume-item-title">{{ course.name }}</h3>
+          <h4 class="resume-item-details">{{ course.organization }} &bull; {{ course.year }}</h4>
+          {% if course.summary %}
+          <p class="resume-item-copy">{{ course.summary }}</p>
+          {% endif %}
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end Continuing Education -->
+      {% endif %}
+
+
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
