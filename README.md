@@ -27,57 +27,107 @@ Use the language switcher in the top-right corner to toggle between languages.
 
 ```txt
 .
-├── _config.yml           # Site configuration
-├── _layouts/             # Page layouts
-│   └── resume-i18n.html  # Bilingual resume layout
-├── _includes/            # Reusable components
-├── _sass/                # Stylesheets
-│   └── _i18n.scss        # Language switcher styles
-├── _data/                # Content data
-│   ├── en/               # English content
+├── _config.yml             # Site configuration
+├── _layouts/               # Page layouts
+│   ├── resume.html         # Single-language resume layout
+│   └── resume-i18n.html    # Bilingual resume layout (used by both index pages)
+├── _includes/              # Reusable components
+│   ├── head.html
+│   ├── icon-links.html
+│   ├── print-social-links.html
+│   └── icons/              # SVG icons for social links
+├── _sass/                  # Stylesheets (partials)
+│   ├── _base.scss
+│   ├── _i18n.scss          # Language switcher styles
+│   ├── _layout.scss
+│   ├── _mixins.scss
+│   ├── _normalize.scss
+│   ├── _resume.scss
+│   └── _variables.scss
+├── _data/                  # Content data
+│   ├── en/                 # English content
 │   │   ├── strings.yml
 │   │   ├── experience.yml
 │   │   ├── education.yml
+│   │   ├── continuing-education.yml
 │   │   ├── skills.yml
 │   │   ├── projects.yml
 │   │   ├── recognitions.yml
 │   │   └── links.yml
-│   └── es/               # Spanish content
+│   └── es/                 # Spanish content (file-for-file mirror of en/)
 │       └── (same structure)
-├── index.html            # English homepage
-└── es/
-    └── index.html        # Spanish homepage
+├── css/                    # Top-level SCSS entry points
+│   ├── main.scss
+│   └── markdown-styles.css
+├── images/                 # Static assets
+│   └── avatar.jpg
+├── index.html              # English homepage (lang: en)
+├── es/
+│   └── index.html          # Spanish homepage (lang: es)
+├── .github/
+│   ├── dependabot.yml
+│   └── workflows/
+│       └── jekyll.yml      # GitHub Pages deploy
+├── .gitignore              # Jekyll / Ruby / IDE / OS / agent state
+├── .gitattributes          # LF line endings, binary asset hints
+├── .dockerignore           # Keeps `docker build` context small
+├── Dockerfile              # ruby:3.2-slim + bundler 4.0.6 for local dev
+├── Gemfile                 # Ruby dependencies
+└── Gemfile.lock            # Pinned versions (kept tracked for reproducible builds)
 ```
 
 ## 🚀 Local Development
 
-### Prerequisites
+You can run the site locally either with a host Ruby installation or with Docker (recommended — avoids fighting bundle version mismatches against the system Ruby).
 
-- Ruby 3.2+
-- Bundler
+### 🐳 Option A: Docker (recommended)
 
-### Setup
+This repo ships a `Dockerfile` that mirrors the GitHub Pages CI exactly: `ruby:3.2-slim` plus the same `bundler 4.0.6` pinned by `Gemfile.lock`. A successful `docker build && docker run` is equivalent to the production build.
+
+Prerequisites: [Docker](https://docs.docker.com/get-docker/) 20+.
+
+1. Build the image:
+
+   ```bash
+   docker build -t christian-grimberg-cv .
+   ```
+
+2. Run the dev server with live-reload. The bind mount lets you edit `_data/`, `_layouts/`, `_sass/`, etc. on the host and see changes instantly:
+
+   ```bash
+   docker run --rm -p 4000:4000 \
+     -v "$PWD:/srv/jekyll" \
+     christian-grimberg-cv
+   ```
+
+3. Open your browser to [http://localhost:4000](http://localhost:4000).
+
+> **Tip:** `--force_polling` is enabled in the Dockerfile so live-reload works on Docker Desktop for macOS, where inotify isn't available. On Linux you can drop it.
+
+### 🛠 Option B: Host Ruby
+
+Prerequisites: Ruby 3.2+, Bundler.
 
 1. Clone the repository:
 
-  ```bash
-  git clone https://github.com/ChristianGrimberg/ChristianGrimberg.git
-  cd ChristianGrimberg
-  ```
+   ```bash
+   git clone https://github.com/ChristianGrimberg/ChristianGrimberg.github.io.git
+   cd ChristianGrimberg.github.io
+   ```
 
 2. Install dependencies:
 
-  ```bash
-  bundle install
-  ```
+   ```bash
+   bundle install
+   ```
 
 3. Run the local server:
 
-  ```bash
-  bundle exec jekyll serve
-  ```
+   ```bash
+   bundle exec jekyll serve
+   ```
 
-4. Open your browser to [http://localhost:4000](http://localhost:4000)
+4. Open your browser to [http://localhost:4000](http://localhost:4000).
 
 ## 📝 Updating Content
 
@@ -121,7 +171,7 @@ Edit `_sass/_variables.scss` to change colors and fonts.
 
 ### Avatar Image
 
-Replace `images/avatar.jpg` with your own photo.
+Replace `images/avatar.jpg` with your own photo (keep the same filename, or update `resume_avatar` in `_config.yml`).
 
 ### Contact Information
 
