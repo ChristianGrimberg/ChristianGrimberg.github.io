@@ -1,0 +1,41 @@
+# Normalize text files to LF on checkout; detect per-file on commit.
+* text=auto eol=lf
+
+# Force LF for source files where CRLF would break Jekyll / Ruby parsing.
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.json      text eol=lf
+*.md        text eol=lf
+*.html      text eol=lf
+*.liquid    text eol=lf
+*.scss      text eol=lf
+*.css       text eol=lf
+*.js        text eol=lf
+Gemfile     text eol=lf
+Gemfile.lock text eol=lf
+Rakefile    text eol=lf
+*.sh        text eol=lf
+Dockerfile  text eol=lf
+.gitignore  text eol=lf
+.gitattributes text eol=lf
+
+# Binary assets must stay binary — prevent diff churn from auto-detection.
+*.jpg       binary
+*.jpeg      binary
+*.png       binary
+*.gif       binary
+*.ico       binary
+*.webp      binary
+*.pdf       binary
+*.woff      binary
+*.woff2     binary
+*.ttf       binary
+*.eot       binary
+
+# Linguist hints — keep the language stats honest.
+# Gemfile.lock is hand-reviewed, not auto-generated noise.
+Gemfile.lock    linguist-generated=false
+
+# Defensive: if anything ever lands under _site (it shouldn't, see .gitignore),
+# hide it from the language stats and render diffs as HTML.
+_site/**        linguist-generated=true diff=html

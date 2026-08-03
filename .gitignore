@@ -1,0 +1,53 @@
+# Jekyll build output
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+
+# Ruby / Bundler
+/vendor/bundle/
+/.bundle/
+*.gem
+*.rbc
+/coverage/
+
+# Node (defensive — not used yet but cheap to ignore)
+/node_modules/
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Local tool / agent state (Hermes, Claude, Aider, etc.)
+/.hermes/
+/.agents/
+/AGENTS.md
+/CLAUDE.md
+/.cursorrules
+/.aider*
+/.cursor/
+
+# Editor / IDE
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+logs/
+
+# Env / secrets (defensive — CV site has no secrets today)
+/.env
+/.env.*
+!.env.example
