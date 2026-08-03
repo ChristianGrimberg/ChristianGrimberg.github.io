@@ -2,8 +2,8 @@
 - skill: Cloud Solutions (IaaS, PaaS, SaaS & IaC)
   description: Specialist in Microsoft Azure for designing and implementing scalable Cloud and hybrid infrastructure solutions.
 
-- skill: Software Development (.NET Core & Go)
-  description: Backend and application development using .NET Core and Go, including clean code practices and modern software engineering principles.
+- skill: Software Development (.NET Core)
+  description: Backend and application development using .NET Core, including clean code practices and modern software engineering principles.
 
 - skill: Databases (SQL Server & MariaDB/MySQL)
   description: Administration and development of relational databases with SQL Server and MariaDB/MySQL, including ORM with Entity Framework Core.

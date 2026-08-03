@@ -110,8 +110,29 @@
       {% endif %}
 
 
+      {% if site.resume_section_recognition %}
+      <!-- begin Recognition -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>{{ site.data[page.lang].strings.section_recognition }}</h2>
+        </header>
+
+        {% for recognition in site.data[page.lang].recognitions %}
+        <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
+          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
+          <p class="resume-item-copy">{{ recognition.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Recognition -->
+      {% endif %}
+
+
       {% if site.resume_section_continuing_education %}
-      <!-- begin Continuing Education -->
+      <!-- begin Courses -->
       <section class="content-section">
 
         <header class="section-header">
@@ -129,7 +150,7 @@
         {% endfor %}
 
       </section>
-      <!-- end Continuing Education -->
+      <!-- end Courses -->
       {% endif %}
 
 
@@ -169,26 +190,6 @@
 
       </section>
       <!-- end Skills -->
-      {% endif %}
-
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>{{ site.data[page.lang].strings.section_recognition }}</h2>
-        </header>
-
-        {% for recognition in site.data[page.lang].recognitions %}
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Recognition -->
       {% endif %}
 
       {% if site.resume_section_associations %}
