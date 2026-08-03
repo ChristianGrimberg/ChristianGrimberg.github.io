@@ -118,7 +118,7 @@
           <h2>{{ site.data[page.lang].strings.section_continuing_education }}</h2>
         </header>
 
-        {% for course in site.data[page.lang].continuing_education %}
+        {% for course in site.data[page.lang]['continuing-education'] %}
         <div class="resume-item">
           <h3 class="resume-item-title">{{ course.name }}</h3>
           <h4 class="resume-item-details">{{ course.organization }} &bull; {{ course.year }}</h4>
