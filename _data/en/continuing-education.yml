@@ -1,0 +1,112 @@
+# Continuing Education — curated subset (16 of 95 LinkedIn credentials)
+# Selection criteria: official certifications & vendor badges, pharmaceutical
+# industry specialization, and long-form / leadership programs.
+# Ordered newest-first by year of completion.
+# Full list: https://www.linkedin.com/in/christiangrimberg/details/certifications/
+
+# --- 2023 ---
+- name: "Introduction to ITSM"
+  organization: "Atlassian"
+  year: "2023"
+  summary: >-
+    Foundational training in IT Service Management practices and
+    Atlassian's approach.
+
+- name: "Carrera de Data Analytics"
+  organization: "Coderhouse"
+  year: "2023"
+  summary: >-
+    Full Data Analytics career path (Excel, SQL, BI tools, statistics).
+
+- name: "Todo lo que debería saber sobre Integridad de Datos"
+  organization: "JENCK"
+  year: "2023"
+  summary: >-
+    Pharmaceutical data integrity fundamentals.
+
+- name: "Mantenimiento del estado de control"
+  organization: "OQOTECH"
+  year: "2023"
+  summary: >-
+    Control state maintenance in computerized pharmaceutical systems.
+
+- name: "Análisis de requisitos y enfoque de validación para los Sistemas Informatizados"
+  organization: "OQOTECH"
+  year: "2023"
+  summary: >-
+    Requirements analysis and validation approach for computerized systems.
+
+# --- 2021 ---
+- name: "Azure DevOps Professional Training"
+  organization: "MUG Asociación Civil (Microsoft User Group Argentina)"
+  year: "2021"
+  summary: >-
+    Professional training on Azure DevOps services and DevOps practices.
+
+- name: "Workshop Go desde cero"
+  organization: "Microsoft User Group Argentina"
+  year: "2021"
+  summary: >-
+    Hands-on workshop introducing the Go programming language.
+
+# --- 2020 ---
+- name: "Optimización de procesos productivos a través de sistemas informáticos"
+  organization: "SAFYBI"
+  year: "2020"
+  summary: >-
+    Optimization of pharmaceutical production processes through IT systems.
+
+# --- 2019 ---
+- name: "Integridad de Datos"
+  organization: "cGMPdoc"
+  year: "2019"
+  summary: >-
+    Data integrity principles under cGMP regulatory frameworks.
+
+- name: "Ciclo de Vida de Sistemas Computarizados"
+  organization: "cGMPdoc"
+  year: "2019"
+  summary: >-
+    Computerized system validation lifecycle (GAMP 5-aligned).
+
+- name: "Formación de Auditores"
+  organization: "cGMPdoc"
+  year: "2019"
+  summary: >-
+    Auditor training for GxP-regulated computerized systems.
+
+# --- 2014 ---
+- name: "Master en Sistemas"
+  organization: "CentralTECH"
+  year: "2014"
+  summary: >-
+    Comprehensive systems master program covering infrastructure,
+    networking, and administration.
+
+# --- 2013 ---
+- name: "Microsoft Active Professional"
+  organization: "Microsoft"
+  year: "2013"
+  summary: >-
+    Community recognition for active participation in Microsoft technical
+    communities and events.
+
+# --- 2012 ---
+- name: "Programa de Liderazgo de Equipos de Trabajo"
+  organization: "IDEA ARG"
+  year: "2012"
+  summary: >-
+    Executive leadership and team management program.
+
+# --- 2011 ---
+- name: "Oracle 11g DBA"
+  organization: "CentralTECH"
+  year: "2011"
+  summary: >-
+    Database administration training for Oracle 11g.
+
+- name: "Enterprise Asterisk Administrator"
+  organization: "CentralTECH"
+  year: "2011"
+  summary: >-
+    Administration of Asterisk-based enterprise telephony systems.
