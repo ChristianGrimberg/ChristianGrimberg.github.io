@@ -37,11 +37,11 @@
 
 - project: "Migración de aplicaciones legadas a Azure IaaS"
   role: Ingeniero de Infraestructura Cloud
-  description: Lideré la migración de las aplicaciones de Sifra Suite y ADP Payroll a máquinas virtuales en Microsoft Azure IaaS, conectando los entornos a las locaciones on-premises mediante túneles VPN site-to-site contra los routers Fortinet de cada sucursal.
+  description: Lideré la migración de las aplicaciones del sistema de central de pesadas y del sistema de liquidación de haberes a máquinas virtuales en Microsoft Azure IaaS, conectando los entornos a las locaciones on-premises mediante túneles VPN site-to-site contra los routers Fortinet de cada sucursal.
 
 - project: "Acceso remoto a aplicaciones mediante RDS y Azure VPN"
   role: Ingeniero de Infraestructura
-  description: Implementé los roles de Remote Desktop Services con RemoteApp para publicar los clientes de Sifra Suite y ADP Payroll hacia los usuarios, y desplegué el cliente VPN de Azure para las conexiones remotas en el contexto de cuarentena por COVID-19 en Argentina.
+  description: Implementé los roles de Remote Desktop Services con RemoteApp para publicar los clientes del sistema de central de pesadas y del sistema de liquidación de haberes hacia los usuarios, y desplegué el cliente VPN de Azure para las conexiones remotas en el contexto de cuarentena por COVID-19 en Argentina.
 
 - project: "Adopción de GAMP 5 para validación de sistemas computerizados"
   role: Líder de Validaciones
@@ -61,11 +61,11 @@
 
 - project: "Sistema de Libro de Sueldos Digital para AFIP"
   role: Desarrollador .NET
-  description: Diseñé e implementé en .NET Framework con C# una aplicación cliente-servidor de Libro de Sueldos Digital para AFIP, desarrollada en capas (UI, lógica de negocio, ORM y SQL Server) e integrada con ADP Payroll para liquidaciones de sueldos y con el módulo de Control de Ausentismo para novedades, siendo la organización una de las 10 empresas seleccionadas en Argentina para enviar el libro de sueldos 100% digital.
+  description: Diseñé e implementé en .NET Framework con C# una aplicación cliente-servidor de Libro de Sueldos Digital para AFIP, desarrollada en capas (UI, lógica de negocio, ORM y SQL Server) e integrada con el sistema de liquidación de haberes y con el módulo de control de ausentismo para novedades, siendo la organización una de las 10 empresas seleccionadas en Argentina para enviar el libro de sueldos 100% digital.
 
-- project: "Migración de telefonía digital Siemens a VoIP con Asterisk"
+- project: "Migración de telefonía digital tradicional a VoIP con Asterisk"
   role: Administrador de Telecomunicaciones
-  description: Lideré la migración de la telefonía digital de la central Siemens hacia centrales VoIP basadas en Asterisk, adquiriendo nuevos teléfonos IP e interconectando todas las locaciones de la organización a través de los túneles VPN sobre Fortinet.
+  description: Lideré la migración de la telefonía digital de la PBX tradicional hacia centrales VoIP basadas en Asterisk, adquiriendo nuevos teléfonos IP e interconectando todas las locaciones de la organización a través de los túneles VPN sobre Fortinet.
 
 - project: "Retiro de Watchguard y consolidación de perimetral en Fortinet"
   role: Ingeniero de Redes y Seguridad
@@ -79,25 +79,25 @@
   role: Líder de Proyecto
   description: Lideré como Project Leader la implementación del ERP SAP S/4HANA, incluyendo el despliegue de módulos estándar, la migración de saldos desde el ERP anterior, el testing integrado y el go-live productivo el 1 de enero de 2016.
 
-- project: "Integración SAP S/4HANA con Sifra Suite"
+- project: "Integración SAP S/4HANA con sistema de central de pesadas"
   role: Desarrollador de Interfaces
-  description: Diseñé e implementé la interfaz de integración entre SAP S/4HANA y el sistema de central de pesadas Sifra Suite para que la transición al nuevo ERP fuera transparente, asegurando el intercambio de órdenes de producción, lotes, materiales, fraccionamientos y ensambles entre ambos sistemas.
+  description: Diseñé e implementé la interfaz de integración entre SAP S/4HANA y el sistema de central de pesadas para que la transición al nuevo ERP fuera transparente, asegurando el intercambio de órdenes de producción, lotes, materiales, fraccionamientos y ensambles entre ambos sistemas.
 
 - project: "Centro de datos en planta Ezeiza con Fortinet y Cisco"
   role: Ingeniero de Redes e Infraestructura
   description: Diseñé y levanté un nuevo centro de datos en la planta Ezeiza, incluyendo firewall y routers Fortinet y switches Cisco, replicando la arquitectura de alta disponibilidad de los demás sitios y sumando una locación más a la red corporativa.
 
-- project: "Migración a 100% telefonía digital con central Siemens"
+- project: "Migración a 100% telefonía digital con PBX tradicional"
   role: Administrador de Telecomunicaciones
-  description: Completé la migración de la telefonía analógica a telefonía 100% digital sobre la central Siemens, modernizando la planta interna de la organización y unificando la numeración entre internos digitales y analógicos.
+  description: Completé la migración de la telefonía analógica a telefonía 100% digital sobre la PBX tradicional, modernizando la planta interna de la organización y unificando la numeración entre internos digitales y analógicos.
 
 - project: "Infraestructura de red y VPNs con Watchguard y Fortinet"
   role: Ingeniero de Redes y Seguridad
   description: Desplegué nuevos centros de datos en las ubicaciones comerciales y extendí el centro de datos de la planta Avellaneda, interconectando las locaciones mediante túneles VPN entre dispositivos Watchguard y Fortinet en una WAN corporativa unificada.
 
-- project: "Implementación de ADP Payroll y módulos de RR. HH."
+- project: "Implementación de sistema de liquidación de haberes y módulos de RR. HH."
   role: Líder de Proyecto y Desarrollador
-  description: Lideré la migración del sistema de liquidación de sueldos a ADP Payroll, incorporando los módulos de Control de Ausentismo, Selección de Personal y Gestión del Empleado, y desarrollé en SQL Server la interfaz de toma de fichadas desde los relojes hacia el módulo de control de ausentismo.
+  description: Lideré la migración al sistema de liquidación de haberes, incorporando los módulos de control de ausentismo, selección de personal y gestión del empleado, y desarrollé en SQL Server la interfaz de toma de fichadas desde los relojes hacia el módulo de control de ausentismo.
 
 - project: "Cierre de la migración a Office 365"
   role: Administrador de Infraestructura
@@ -107,9 +107,9 @@
   role: Administrador de Servidores
   description: Implementé Terminal Server para habilitar la conexión remota al ERP desde el exterior, permitiendo a usuarios autorizados operar el sistema desde fuera de la red corporativa de manera segura.
 
-- project: "Automatización de procesos del ERP en SQL Server"
+- project: "Automatización de procesos del ERP legado en SQL Server"
   role: DBA y Desarrollador SQL
-  description: Diseñé e implementé stored procedures (USP), triggers, tipos definidos por el usuario (UDT) y views en SQL Server para automatizar procesos internos del ERP Stradivarius G3, incluyendo conciliación de stocks, libros contables y reportes regulatorios a Sedronar y de Psicotrópicos.
+  description: Diseñé e implementé stored procedures (USP), triggers, tipos definidos por el usuario (UDT) y views en SQL Server para automatizar procesos internos del ERP legado, incluyendo conciliación de stocks, libros contables y reportes regulatorios a Sedronar y de Psicotrópicos.
 
 - project: "Migración de correo y colaboración a Office 365"
   role: Administrador de Infraestructura
@@ -119,17 +119,17 @@
   role: Administrador Web
   description: Migré los sitios web internos sobre IIS a Windows Azure, dando el primer paso de la organización hacia infraestructura cloud y liberando capacidad del centro de datos on-premises.
 
-- project: "Implementación de Sifra Suite e integración con el ERP"
+- project: "Implementación de sistema de central de pesadas e integración con el ERP"
   role: Líder de Proyecto y Desarrollador
-  description: Lideré por parte de la organización la implementación del sistema cliente-servidor Sifra Suite para central de pesadas en entorno Windows con SQL Server, y diseñé e implementé la interfaz en base de datos para el intercambio de órdenes de producción, lotes, materiales, fraccionamientos y ensambles entre el ERP y Sifra.
+  description: Lideré por parte de la organización la implementación del sistema cliente-servidor para central de pesadas en entorno Windows con SQL Server, y diseñé e implementé la interfaz en base de datos para el intercambio de órdenes de producción, lotes, materiales, fraccionamientos y ensambles entre el ERP y el sistema.
 
 - project: "Servicio centralizado de impresión con Ricoh Argentina"
   role: Administrador de Servicios de Impresión
   description: Implementé un servicio corporativo de impresión centralizado contratado a Ricoh Argentina, incluyendo contabilidad de impresiones, cuotas diferenciadas de blanco y negro y color, y reporting periódico a la dirección sobre consumo y costos.
 
-- project: "Reportes y administración de BD del ERP Stradivarius G3"
+- project: "Reportes y administración de BD del ERP legado"
   role: DBA y Desarrollador de Reportes
-  description: Diseñé e implementé nuevos reportes e informes para el ERP Stradivarius G3 con Crystal Reports en coordinación con el fabricante Finnegans, y me formé como administrador de bases de datos SQL Server para gestionar el despliegue, mantenimiento y tuning de las bases de la organización.
+  description: Diseñé e implementé nuevos reportes e informes para el ERP legado con Crystal Reports, y me formé como administrador de bases de datos SQL Server para gestionar el despliegue, mantenimiento y tuning de las bases de la organización.
 
 - project: "Creación del área de Sistemas y administración de servidores Windows"
   role: Responsable de Infraestructura
@@ -139,9 +139,9 @@
   role: Ingeniero de Redes
   description: Administré la infraestructura de redes y la seguridad perimetral basada en firewalls y routers Watchguard, especializándome en la configuración de políticas, segmentación por VLANs y administración de túneles VPN durante la formación en CCNA de Cisco.
 
-- project: "Soporte de primer nivel del ERP Stradivarius G3"
+- project: "Soporte de primer nivel del ERP legado"
   role: Analista de Soporte ERP
-  description: Brindé soporte de primer nivel del ERP Stradivarius G3 en contacto directo con el fabricante Finnegans, gestionando incidentes, requerimientos y configuraciones del sistema core de la organización.
+  description: Brindé soporte de primer nivel del ERP legado gestionando incidentes, requerimientos y configuraciones del sistema core de la organización.
 
 - project: "Liderazgo del equipo de Sistemas"
   role: Líder de Sistemas

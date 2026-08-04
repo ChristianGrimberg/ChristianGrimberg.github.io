@@ -37,11 +37,11 @@
 
 - project: "Legacy applications migration to Azure IaaS"
   role: Cloud Infrastructure Engineer
-  description: Led the migration of the Sifra Suite and ADP Payroll applications to Microsoft Azure IaaS virtual machines, connecting the cloud environments to on-premises sites through site-to-site VPN tunnels against the Fortinet routers at each location.
+  description: Led the migration of the weighing-center system and payroll system applications to Microsoft Azure IaaS virtual machines, connecting the cloud environments to on-premises sites through site-to-site VPN tunnels against the Fortinet routers at each location.
 
 - project: "Remote application access with RDS and Azure VPN"
   role: Infrastructure Engineer
-  description: Implemented Remote Desktop Services roles with RemoteApp to publish the Sifra Suite and ADP Payroll clients to end users, and deployed the Azure VPN client for remote connections in the context of the COVID-19 quarantine in Argentina.
+  description: Implemented Remote Desktop Services roles with RemoteApp to publish the weighing-center system and payroll system clients to end users, and deployed the Azure VPN client for remote connections in the context of the COVID-19 quarantine in Argentina.
 
 - project: "GAMP 5 adoption for computerized system validation"
   role: Validation Lead
@@ -61,11 +61,11 @@
 
 - project: "Digital Payroll Book system for AFIP"
   role: .NET Developer
-  description: Designed and built a client-server Digital Payroll Book application for AFIP in .NET Framework with C#, structured in layers (UI, business logic, ORM, and SQL Server) and integrated with ADP Payroll for payroll runs and with the Absence Control module for inputs; the organization was one of 10 companies selected in Argentina to submit the payroll book 100% digitally.
+  description: Designed and built a client-server Digital Payroll Book application for AFIP in .NET Framework with C#, structured in layers (UI, business logic, ORM, and SQL Server) and integrated with the payroll system for payroll runs and with the absence control module for inputs; the organization was one of 10 companies selected in Argentina to submit the payroll book 100% digitally.
 
-- project: "Siemens digital telephony to Asterisk VoIP migration"
+- project: "Traditional digital telephony to Asterisk VoIP migration"
   role: Telecommunications Administrator
-  description: Led the migration from the Siemens digital telephony platform to VoIP PBXs based on Asterisk, acquiring new IP phones and interconnecting every site of the organization through the existing Fortinet VPN tunnels.
+  description: Led the migration from the traditional PBX digital telephony platform to VoIP PBXs based on Asterisk, acquiring new IP phones and interconnecting every site of the organization through the existing Fortinet VPN tunnels.
 
 - project: "Watchguard retirement and perimeter consolidation on Fortinet"
   role: Network and Security Engineer
@@ -79,25 +79,25 @@
   role: Project Leader
   description: Led as Project Leader the implementation of the SAP S/4HANA ERP, including the rollout of standard modules, the balance migration from the previous ERP, integrated testing, and the productive go-live on January 1, 2016.
 
-- project: "SAP S/4HANA and Sifra Suite integration"
+- project: "SAP S/4HANA and weighing-center system integration"
   role: Interface Developer
-  description: Designed and implemented the integration interface between SAP S/4HANA and the Sifra Suite weighing-center system to make the ERP cutover transparent, ensuring the exchange of production orders, batches, materials, fractionations, and assemblies between both systems.
+  description: Designed and implemented the integration interface between SAP S/4HANA and the weighing-center system to make the ERP cutover transparent, ensuring the exchange of production orders, batches, materials, fractionations, and assemblies between both systems.
 
 - project: "Ezeiza plant data center with Fortinet and Cisco"
   role: Network and Infrastructure Engineer
   description: Designed and built a new data center at the Ezeiza plant, including Fortinet firewalls and routers and Cisco switches, replicating the high-availability architecture of the other sites and adding a new location to the corporate network.
 
-- project: "Migration to 100% digital telephony with Siemens PBX"
+- project: "Migration to 100% digital telephony with traditional PBX"
   role: Telecommunications Administrator
-  description: Completed the migration from analog to 100% digital telephony on the Siemens PBX, modernizing the organization's internal phone plant and unifying the dial plan across digital and analog extensions.
+  description: Completed the migration from analog to 100% digital telephony on the traditional PBX, modernizing the organization's internal phone plant and unifying the dial plan across digital and analog extensions.
 
 - project: "Network infrastructure and VPNs with Watchguard and Fortinet"
   role: Network and Security Engineer
   description: Deployed new data centers at the commercial locations and extended the Avellaneda plant data center, interconnecting all sites through VPN tunnels between Watchguard and Fortinet devices in a unified corporate WAN.
 
-- project: "ADP Payroll and HR modules implementation"
+- project: "Payroll system and HR modules implementation"
   role: Project Leader and Developer
-  description: Led the migration of the payroll system to ADP Payroll, adding the Absence Control, Personnel Selection, and Employee Management modules, and developed the SQL Server interface that feeds clock-in data from the time clocks into the absence control module.
+  description: Led the migration to the payroll system, adding the absence control, personnel selection, and employee management modules, and developed the SQL Server interface that feeds clock-in data from the time clocks into the absence control module.
 
 - project: "Completion of the Office 365 migration"
   role: Infrastructure Administrator
@@ -107,9 +107,9 @@
   role: Server Administrator
   description: Implemented Terminal Server to enable remote ERP access from outside the corporate network, allowing authorized users to operate the system securely from any location.
 
-- project: "ERP process automation on SQL Server"
+- project: "Legacy ERP process automation on SQL Server"
   role: SQL DBA and Developer
-  description: Designed and implemented stored procedures, triggers, user-defined types, and views on SQL Server to automate core processes of the Stradivarius G3 ERP, including stock reconciliation, accounting books, and regulatory reports to Sedronar and for Psychotropic substances.
+  description: Designed and implemented stored procedures, triggers, user-defined types, and views on SQL Server to automate core processes of the legacy ERP, including stock reconciliation, accounting books, and regulatory reports to Sedronar and for Psychotropic substances.
 
 - project: "Email and collaboration migration to Office 365"
   role: Infrastructure Administrator
@@ -119,17 +119,17 @@
   role: Web Administrator
   description: Migrated the internal IIS web sites to Windows Azure, taking the organization's first step toward cloud infrastructure and freeing capacity from the on-premises data center.
 
-- project: "Sifra Suite implementation and ERP integration"
+- project: "Weighing-center system implementation and ERP integration"
   role: Project Leader and Developer
-  description: Led the implementation of the Sifra Suite client-server weighing-center system for the pharmaceutical industry on Windows with SQL Server from the organization's side, and designed and built the database interface to exchange production orders, batches, materials, fractionations, and assemblies between the ERP and Sifra.
+  description: Led the implementation of the client-server weighing-center system for the pharmaceutical industry on Windows with SQL Server from the organization's side, and designed and built the database interface to exchange production orders, batches, materials, fractionations, and assemblies between the ERP and the system.
 
 - project: "Centralized printing service with Ricoh Argentina"
   role: Print Services Administrator
   description: Implemented a corporate centralized printing service contracted with Ricoh Argentina, including print accounting, differentiated black-and-white and color quotas, and periodic reporting to management on consumption and costs.
 
-- project: "Reporting and database administration for Stradivarius G3 ERP"
+- project: "Reporting and database administration for the legacy ERP"
   role: SQL DBA and Report Developer
-  description: Designed and built new reports for the Stradivarius G3 ERP with Crystal Reports in coordination with the Finnegans vendor, and trained as a SQL Server database administrator to handle deployment, maintenance, and tuning of the organization's databases.
+  description: Designed and built new reports for the legacy ERP with Crystal Reports, and trained as a SQL Server database administrator to handle deployment, maintenance, and tuning of the organization's databases.
 
 - project: "IT department creation and Windows server administration"
   role: Infrastructure Lead
@@ -139,9 +139,9 @@
   role: Network Engineer
   description: Administered the network infrastructure and perimeter security based on Watchguard firewalls and routers, specializing in policy configuration, VLAN segmentation, and VPN tunnel management alongside Cisco CCNA training.
 
-- project: "Tier-1 support for the Stradivarius G3 ERP"
+- project: "Tier-1 support for the legacy ERP"
   role: ERP Support Analyst
-  description: Provided tier-1 support for the Stradivarius G3 ERP in direct contact with the Finnegans vendor, managing incidents, requests, and configurations of the organization's core system.
+  description: Provided tier-1 support for the legacy ERP, managing incidents, requests, and configurations of the organization's core system.
 
 - project: "IT team leadership"
   role: IT Lead
