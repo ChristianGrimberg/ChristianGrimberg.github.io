@@ -1,16 +1,185 @@
 # Proyectos Destacados
-- project: Sistema de Contexto para Agentes de IA
-  role: Creador y Mantenedor
+- project: "Despliegue de Microsoft Fabric integrado a SAP S/4HANA"
+  role: Líder Técnico
+  duration: 2026 &mdash; Presente
+  description: Desplegué Microsoft Fabric conectado al entorno AEP de SAP S/4HANA y a otros sistemas de planta para consolidar el análisis de datos de la organización en una plataforma unificada de analítica y reporting.
+
+- project: "Segunda fase de Microsoft Copilot en la organización"
+  role: Líder Técnico
+  duration: 2026 &mdash; Presente
+  description: Continué el despliegue de Microsoft 365 Copilot iniciado en 2025, ampliando la cobertura a nuevos roles y casos de uso dentro de la organización.
+
+- project: "Implementación de Microsoft 365 Copilot y Copilot Studio"
+  role: Líder Técnico
+  duration: 2025 &mdash; Presente
+  description: Implementé Microsoft 365 Copilot y agentes personalizados con Copilot Studio para diferentes roles de la organización, automatizando flujos de trabajo y mejorando la productividad con IA generativa integrada en el ecosistema Microsoft 365.
+
+- project: "Despliegue de EDR con Microsoft Defender for Cloud"
+  role: Administrador de Seguridad
+  duration: 2025 &mdash; Presente
+  description: Desplegué Microsoft Defender for Cloud como solución EDR para protección de endpoints y cargas de trabajo en la nube, integrando detección, respuesta y recomendaciones de seguridad en la infraestructura de la organización.
+
+- project: "Implementación de CMDB en Jira Service Management"
+  role: Administrador de ITSM
+  duration: 2025 &mdash; Presente
+  description: Implementé la CMDB (Configuration Management Database) dentro de Jira Service Management para la gestión centralizada de activos de TI, sus relaciones y su ciclo de vida, dando visibilidad completa del inventario tecnológico a la organización.
+
+- project: "Despliegue de Atlassian Jira Software y Jira Service Management"
+  role: Administrador de Herramientas
   duration: 2024 &mdash; Presente
-  url: "https://github.com/ChristianGrimberg/ChristianGrimberg"
-  description: Desarrollé AGENTS.md - un sistema de contexto integral para agentes de IA que define estándares de código, preferencias tecnológicas y opciones arquitectónicas. Este enfoque innovador permite a los asistentes de IA proporcionar asistencia más contextual y alineada en proyectos de software.
+  description: Implementé y desplegué Atlassian Jira Software para la gestión de proyectos ágiles y Jira Service Management como mesa de ayuda corporativa, unificando la gestión del trabajo y los servicios de TI en una sola plataforma.
 
-- project: Soluciones Empresariales .NET
-  role: Arquitecto Principal y Desarrollador
-  duration: 2018 &mdash; Presente
-  description: Arquitecturé y desarrollé múltiples aplicaciones de nivel empresarial usando .NET, implementando patrones de Arquitectura Limpia y DDD. Construí microservicios escalables con infraestructura en la nube de Azure, pipelines CI/CD automatizados e integré capacidades de IA para optimización de procesos de negocio.
+- project: "Integración de Azure Recovery Services al sistema de respaldos"
+  role: Ingeniero de Infraestructura
+  duration: 2023 &mdash; Presente
+  description: Integré Azure Recovery Services al sistema de respaldos para alojar una segunda copia off-site en diferentes Vaults异地, fortaleciendo la estrategia de continuidad de negocio y recuperación ante desastres del entorno on-premises y Azure.
 
-- project: Framework de Automatización DevOps
-  role: Creador
+- project: "Sistema DevOps de respaldo y retención de datos"
+  role: Desarrollador, Scrum Master y Product Owner
+  duration: 2022 &mdash; Presente
+  description: Diseñé e implementé un sistema de respaldo y retención de datos para archivos y bases de datos SQL Server, basado en módulos de PowerShell y .NET Core, integrado con Azure DevOps y GitHub para CI/CD, versionado y colaboración; lideré el ciclo Scrum con sprints de dos semanas alternando entre Scrum Master y Product Owner.
+
+- project: "Implementación de Microsoft Intune para MDM y MAM"
+  role: Administrador de Dispositivos
+  duration: 2021 &mdash; Presente
+  description: Implementé Microsoft Intune para la administración unificada de dispositivos móviles (MDM) y aplicaciones móviles (MAM) en la organización, desplegando baselines de seguridad, políticas de cumplimiento y protección de datos corporativos en endpoints Windows, iOS y Android.
+
+- project: "Migración de aplicaciones legadas a Azure IaaS"
+  role: Ingeniero de Infraestructura Cloud
   duration: 2020 &mdash; Presente
-  description: Creé frameworks integrales de automatización en PowerShell y Bash para aprovisionamiento de infraestructura, automatización de despliegues y monitoreo de sistemas. Reduje significativamente los tiempos de despliegue y mejoré la confiabilidad del sistema mediante prácticas de Infraestructura como Código.
+  description: Lideré la migración de las aplicaciones de Sifra Suite y ADP Payroll a máquinas virtuales en Microsoft Azure IaaS, conectando los entornos a las locaciones on-premises mediante túneles VPN site-to-site contra los routers Fortinet de cada sucursal.
+
+- project: "Acceso remoto a aplicaciones mediante RDS y Azure VPN"
+  role: Ingeniero de Infraestructura
+  duration: 2020 &mdash; Presente
+  description: Implementé los roles de Remote Desktop Services con RemoteApp para publicar los clientes de Sifra Suite y ADP Payroll hacia los usuarios, y desplegué el cliente VPN de Azure para las conexiones remotas en el contexto de cuarentena por COVID-19 en Argentina.
+
+- project: "Adopción de GAMP 5 para validación de sistemas computerizados"
+  role: Líder de Validaciones
+  duration: 2019 &mdash; Presente
+  description: Lideré la documentación de los procesos del área de Sistemas bajo las guías GAMP 5, estableciendo el marco de validación de sistemas computerizados requerido por la industria farmacéutica regulada, incluyendo especificaciones funcionales, de diseño, instalación, operación y性能 (IQ/OQ/PQ) de los sistemas críticos.
+
+- project: "Implementación de Microsoft Teams en la organización"
+  role: Administrador de Colaboración
+  duration: 2019 &mdash; Presente
+  description: Desplegué Microsoft Teams como plataforma de colaboración y comunicación corporativa, integrando chat, reuniones, llamadas y compartición de archivos en el ecosistema de Office 365 de la organización.
+
+- project: "Primer centro de datos en Microsoft Azure"
+  role: Ingeniero de Infraestructura Cloud
+  duration: 2019 &mdash; Presente
+  description: Diseñé e implementé el primer centro de datos en Microsoft Azure como DC primario para la organización, sobre Windows Server 2019, estableciendo las bases de la estrategia cloud híbrida y los procedimientos de operación remota.
+
+- project: "Sistema de enclavamiento de puertas con Arduino UNO"
+  role: Desarrollador de Hardware y Firmware
+  duration: 2018 &mdash; Presente
+  description: Diseñé e implementé un sistema de enclavamiento electrónico de puertas para las plantas de la organización basado en placas Arduino UNO, soportando múltiples modos de enclavamiento e integrado a los relojes de fichada para administrar los controles de acceso físico de manera centralizada.
+
+- project: "Sistema de Libro de Sueldos Digital para AFIP"
+  role: Desarrollador .NET
+  duration: 2017 &mdash; Presente
+  description: Diseñé e implementé en .NET Framework con C# una aplicación cliente-servidor de Libro de Sueldos Digital para AFIP, desarrollada en capas (UI, lógica de negocio, ORM y SQL Server) e integrada con ADP Payroll para liquidaciones de sueldos y con el módulo de Control de Ausentismo para novedades, siendo la organización una de las 10 empresas seleccionadas en Argentina para enviar el libro de sueldos 100% digital.
+
+- project: "Migración de telefonía digital Siemens a VoIP con Asterisk"
+  role: Administrador de Telecomunicaciones
+  duration: 2016 &mdash; Presente
+  description: Lideré la migración de la telefonía digital de la central Siemens hacia centrales VoIP basadas en Asterisk, adquiriendo nuevos teléfonos IP e interconectando todas las locaciones de la organización a través de los túneles VPN sobre Fortinet.
+
+- project: "Retiro de Watchguard y consolidación de perimetral en Fortinet"
+  role: Ingeniero de Redes y Seguridad
+  duration: 2016 &mdash; Presente
+  description: Ejecuté el plan de fin de ciclo de vida de los dispositivos Watchguard y consolidé la seguridad perimetral y el ruteo inter-sucursales en firewalls y routers Fortinet, estandarizando el vendor de seguridad de red en toda la organización.
+
+- project: "Actualización a Windows Server 2012 R2"
+  role: Administrador de Servidores
+  duration: 2016 &mdash; Presente
+  description: Ejecuté el plan de actualización de los servidores a Windows Server 2012 R2, migrando roles, servicios y políticas desde Windows Server 2008 R2 sin afectar la operación de la organización.
+
+- project: "Implementación de SAP S/4HANA"
+  role: Líder de Proyecto
+  duration: 2015 &mdash; 2016
+  description: Lideré como Project Leader la implementación del ERP SAP S/4HANA, incluyendo el despliegue de módulos estándar, la migración de saldos desde el ERP anterior, el testing integrado y el go-live productivo el 1 de enero de 2016.
+
+- project: "Integración SAP S/4HANA con Sifra Suite"
+  role: Desarrollador de Interfaces
+  duration: 2015 &mdash; 2016
+  description: Diseñé e implementé la interfaz de integración entre SAP S/4HANA y el sistema de central de pesadas Sifra Suite para que la transición al nuevo ERP fuera transparente, asegurando el intercambio de órdenes de producción, lotes, materiales, fraccionamientos y ensambles entre ambos sistemas.
+
+- project: "Centro de datos en planta Ezeiza con Fortinet y Cisco"
+  role: Ingeniero de Redes e Infraestructura
+  duration: 2015 &mdash; Presente
+  description: Diseñé y levanté un nuevo centro de datos en la planta Ezeiza, incluyendo firewall y routers Fortinet y switches Cisco, replicando la arquitectura de alta disponibilidad de los demás sitios y sumando una locación más a la red corporativa.
+
+- project: "Migración a 100% telefonía digital con central Siemens"
+  role: Administrador de Telecomunicaciones
+  duration: 2014 &mdash; Presente
+  description: Completé la migración de la telefonía analógica a telefonía 100% digital sobre la central Siemens, modernizando la planta interna de la organización y unificando la numeración entre internos digitales y analógicos.
+
+- project: "Infraestructura de red y VPNs con Watchguard y Fortinet"
+  role: Ingeniero de Redes y Seguridad
+  duration: 2014 &mdash; Presente
+  description: Desplegué nuevos centros de datos en las ubicaciones comerciales y extendí el centro de datos de la planta Avellaneda, interconectando las locaciones mediante túneles VPN entre dispositivos Watchguard y Fortinet en una WAN corporativa unificada.
+
+- project: "Implementación de ADP Payroll y módulos de RR. HH."
+  role: Líder de Proyecto y Desarrollador
+  duration: 2014 &mdash; Presente
+  description: Lideré la migración del sistema de liquidación de sueldos a ADP Payroll, incorporando los módulos de Control de Ausentismo, Selección de Personal y Gestión del Empleado, y desarrollé en SQL Server la interfaz de toma de fichadas desde los relojes hacia el módulo de control de ausentismo.
+
+- project: "Cierre de la migración a Office 365"
+  role: Administrador de Infraestructura
+  duration: 2012 &mdash; 2013
+  description: Completé la migración a la plataforma cloud de Office 365 iniciada en 2012, finalizando la transición del File Server a SharePoint, del correo electrónico a Exchange Online y de los sitios web internos a Windows Azure durante el segundo semestre de 2013.
+
+- project: "Acceso remoto al ERP mediante Terminal Server"
+  role: Administrador de Servidores
+  duration: 2013 &mdash; Presente
+  description: Implementé Terminal Server para habilitar la conexión remota al ERP desde el exterior, permitiendo a usuarios autorizados operar el sistema desde fuera de la red corporativa de manera segura.
+
+- project: "Automatización de procesos del ERP en SQL Server"
+  role: DBA y Desarrollador SQL
+  duration: 2012 &mdash; Presente
+  description: Diseñé e implementé stored procedures (USP), triggers, tipos definidos por el usuario (UDT) y views en SQL Server para automatizar procesos internos del ERP Stradivarius G3, incluyendo conciliación de stocks, libros contables y reportes regulatorios a Sedronar y de Psicotrópicos.
+
+- project: "Migración de correo y colaboración a Office 365"
+  role: Administrador de Infraestructura
+  duration: 2012 &mdash; 2013
+  description: Ejecuté la migración del File Server a SharePoint y de Exchange Server 2010 a Exchange Online en el marco de la adopción de Office 365, modernizando la plataforma de colaboración y correo corporativo.
+
+- project: "Migración de sitios web IIS a Windows Azure"
+  role: Administrador Web
+  duration: 2012 &mdash; Presente
+  description: Migré los sitios web internos sobre IIS a Windows Azure, dando el primer paso de la organización hacia infraestructura cloud y liberando capacidad del centro de datos on-premises.
+
+- project: "Implementación de Sifra Suite e integración con el ERP"
+  role: Líder de Proyecto y Desarrollador
+  duration: 2011 &mdash; Presente
+  description: Lideré por parte de la organización la implementación del sistema cliente-servidor Sifra Suite para central de pesadas en entorno Windows con SQL Server, y diseñé e implementé la interfaz en base de datos para el intercambio de órdenes de producción, lotes, materiales, fraccionamientos y ensambles entre el ERP y Sifra.
+
+- project: "Servicio centralizado de impresión con Ricoh Argentina"
+  role: Administrador de Servicios de Impresión
+  duration: 2010 &mdash; Presente
+  description: Implementé un servicio corporativo de impresión centralizado contratado a Ricoh Argentina, incluyendo contabilidad de impresiones, cuotas diferenciadas de blanco y negro y color, y reporting periódico a la dirección sobre consumo y costos.
+
+- project: "Reportes y administración de BD del ERP Stradivarius G3"
+  role: DBA y Desarrollador de Reportes
+  duration: 2010 &mdash; Presente
+  description: Diseñé e implementé nuevos reportes e informes para el ERP Stradivarius G3 con Crystal Reports en coordinación con el fabricante Finnegans, y me formé como administrador de bases de datos SQL Server para gestionar el despliegue, mantenimiento y tuning de las bases de la organización.
+
+- project: "Creación del área de Sistemas y administración de servidores Windows"
+  role: Responsable de Infraestructura
+  duration: 2009 &mdash; Presente
+  description: Creé desde cero el área de Sistemas en la organización, siendo responsable de la administración de los servidores Windows, incluyendo la migración del dominio desde Windows Server 2003 a Windows Server 2008 / 2008 R2 y la migración de Exchange Server 2003 a Exchange 2007.
+
+- project: "Infraestructura de red y seguridad perimetral con Watchguard"
+  role: Ingeniero de Redes
+  duration: 2009 &mdash; Presente
+  description: Administré la infraestructura de redes y la seguridad perimetral basada en firewalls y routers Watchguard, especializándome en la configuración de políticas, segmentación por VLANs y administración de túneles VPN durante la formación en CCNA de Cisco.
+
+- project: "Soporte de primer nivel del ERP Stradivarius G3"
+  role: Analista de Soporte ERP
+  duration: 2009 &mdash; Presente
+  description: Brindé soporte de primer nivel del ERP Stradivarius G3 en contacto directo con el fabricante Finnegans, gestionando incidentes, requerimientos y configuraciones del sistema core de la organización.
+
+- project: "Liderazgo del equipo de Sistemas"
+  role: Líder de Sistemas
+  duration: 2009 &mdash; Presente
+  description: Lideré la conformación inicial del equipo de Sistemas, comenzando con un Analista de Sistemas a mi cargo, y consolidé la operación interna del área con foco en soporte, infraestructura y proyectos de mejora continua.
