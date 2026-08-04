@@ -1,6 +1,6 @@
 # Professional Experience
 - company: "Laboratorios Novocap S.A. (Buenos Aires, Argentina)"
-  position: "Head of Systems & Solutions Architect"
+  position: "Head of Systems"
   duration: "February 2014 &mdash; Present"
   summary: >
     Alignment of technology strategy with business goals. Conceptual
@@ -11,9 +11,9 @@
     Building of high-performance teams through coaching and mentoring.
     Leadership of software implementation projects. Participation in
     the definition of strategy in agreement with the different business
-    units. Project administration under agile methodologies such as
-    SCRUM, Kanban Boards, Lean, Pair Programming, and Roadmap Projection.
-    Experience in roles such as Product Owner and Scrum Master.
+    units. Project administration under the SCRUM Framework with
+    two-week sprints. Experience in roles such as Product Owner
+    and Scrum Master.
 
 - company: "Laboratorios Novocap S.A. (Buenos Aires, Argentina)"
   position: "Systems Supervisor"
@@ -22,7 +22,6 @@
     Coordination of the Systems area, supporting the alignment of
     technology strategy with business goals. Hands-on supervision of
     the organization's technology infrastructure and IT processes.
-    Administration of processes under pharmaceutical quality standards.
     Coordination of software implementation projects and technical
     suppliers. Foundation of DevOps practices and collaboration
     patterns later scaled into the Head of Systems role.
