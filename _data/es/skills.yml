@@ -4,17 +4,16 @@
     Especialista en Microsoft Azure para el diseño e implementación de
     soluciones de infraestructura Cloud e híbrida escalables.
 
-- skill: "Desarrollo de Software (.NET Core)"
+- skill: "Desarrollo de Software (plataforma .NET)"
   description: >
-    Desarrollo backend y de aplicaciones utilizando .NET Core,
+    Desarrollo backend y de aplicaciones sobre la plataforma .NET,
     incluyendo buenas prácticas de código limpio e ingeniería de
     software moderna.
 
-- skill: "Bases de Datos (SQL Server y MariaDB/MySQL)"
+- skill: "Bases de Datos (SQL Server y MySQL)"
   description: >
     Administración y desarrollo de bases de datos relacionales con
-    SQL Server y MariaDB/MySQL, incluyendo ORM con Entity Framework
-    Core.
+    SQL Server y MySQL, incluyendo ORM con Entity Framework Core.
 
 - skill: "Soluciones IoT"
   description: >
@@ -36,10 +35,11 @@
     Administración de parques de Windows Server y Linux (Ubuntu Server,
     CentOS), incluyendo instalación, hardening y mantenimiento continuo.
 
-- skill: "Control de Versiones y Toolchain DevOps"
+- skill: "Control de Versiones y DevOps"
   description: >
     Ciclo de vida de Desarrollo de Software con Git, Azure DevOps,
-    GitHub Actions, GitHub Packages y GitHub Registry.
+    GitHub Actions, GitHub Packages, GitHub Registry y PowerShell
+    Gallery.
 
 - skill: "Scripting (PowerShell y GNU Bash)"
   description: >
