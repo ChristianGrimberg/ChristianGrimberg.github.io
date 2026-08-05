@@ -81,7 +81,7 @@
   position: relative;
   top: 4px;
   text-align: center;
-  border-top: 2px solid #c7c7c7;
+  border-top: 2px solid var(--border-strong);
   padding-top: .4rem;
 
   @include media_larger_than_mobile {
@@ -98,7 +98,7 @@
   .icon-link { display: inline-block;
 
     &:hover .icon path {
-      fill: #333;
+      fill: var(--text-primary);
       @include transition(all .2s ease);
     }
   }
@@ -110,7 +110,7 @@
 
 .contact-button {
   @include border-radius(3px);
-  background-color: #efefef;
+  background-color: var(--bg-hover);
   text-decoration: none;
   text-align: center;
   display: block;
@@ -118,13 +118,13 @@
   width: 220px;
   font-size: 1.375rem;
   @include sans_light;
-  color: #333;
+  color: var(--text-primary);
   line-height: 55px;
   @include transition(all .2s ease);
 
   &:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--text-primary);
+    color: var(--text-inverse);
   }
 
   &.not-looking { width: 400px; }
@@ -160,13 +160,13 @@
   .resume-item-copy,
   .resume-item-list {
     a {
-      color: #333;
+      color: var(--link);
       text-decoration: none;
       border-bottom: 1px solid;
 
       &:hover {
         border-bottom: none;
-        color: #9c9c9c;
+        color: var(--link-hover);
       }
     }
   }
@@ -177,7 +177,7 @@
 // footer styles
 
 .page-footer {
-  border-top: 4px solid #c7c7c7;
+  border-top: 4px solid var(--border-strong);
   padding-top: 1.5rem;
   text-align: center;
   margin-bottom: 3rem;
@@ -185,11 +185,11 @@
   .footer-line {
     margin: 0;
     font-size: .875rem;
-    color: #999;
+    color: var(--text-muted);
 
     > a {
       font-weight: 700;
-      color: #333;
+      color: var(--text-primary);
     }
   }
 }
