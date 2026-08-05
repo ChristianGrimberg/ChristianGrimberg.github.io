@@ -3,9 +3,10 @@
 # instead of the historical one-PR-per-gem pattern (which produced #4/#5
 # cross-conflicts on the json line in Gemfile.lock).
 # Note: the "Re-run Dependabot checks" button appears automatically on every
-# PR opened by Dependabot (no config knob needed). After merging this PR,
-# trigger it once on PR #22's timeline to surface any pending bumps
-# (notably actions/checkout@v4 → v5) without waiting for the weekly schedule.
+# PR opened by Dependabot (no config knob needed). To force an out-of-band
+# scan without waiting for the weekly schedule, click that button on any
+# Dependabot PR's timeline (e.g. once the first Actions-bump PR opens, you
+# can re-trigger it to surface additional pending bumps).
 version: 2
 updates:
   - package-ecosystem: "bundler"
