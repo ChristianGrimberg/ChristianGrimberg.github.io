@@ -1,51 +1,51 @@
-# Christian Grimberg - Professional Resume
+# Christian Grimberg - Currículum Profesional
 
-This repository hosts my professional CV/Resume as a GitHub Pages site, built with Jekyll.
+Este repositorio aloja mi CV/Currículum profesional como sitio de GitHub Pages, construido con Jekyll.
 
-## 🌐 Live Site
+## 🌐 Sitio en Vivo
 
-Visit the live resume at: [https://christiangrimberg.github.io/](https://christiangrimberg.github.io/)
+Visitar el currículum en vivo en: [https://christiangrimberg.github.io/](https://christiangrimberg.github.io/)
 
-## 🌍 Languages
+## 🌍 Idiomas
 
-The resume is available in two languages:
+El currículum está disponible en dos idiomas:
 
-- **English**: [https://christiangrimberg.github.io/](https://christiangrimberg.github.io/)
+- **Inglés**: [https://christiangrimberg.github.io/](https://christiangrimberg.github.io/)
 - **Español**: [https://christiangrimberg.github.io/es/](https://christiangrimberg.github.io/es/)
 
-Use the language switcher in the top-right corner to toggle between languages.
+Usar el selector de idioma en la esquina superior derecha para alternar entre idiomas.
 
-## 🛠️ Technology Stack
+## 🛠️ Stack Tecnológico
 
-- **Static Site Generator**: Jekyll 3.10+
-- **Template**: Based on [jglovier/resume-template](https://github.com/jglovier/resume-template)
+- **Generador de sitio estático**: Jekyll 3.10+
+- **Plantilla**: Basada en [jglovier/resume-template](https://github.com/jglovier/resume-template)
 - **Hosting**: GitHub Pages
 - **CI/CD**: GitHub Actions
-- **Languages**: Ruby 3.2, SCSS, Liquid templates
+- **Lenguajes**: Ruby 3.2, SCSS, plantillas Liquid
 
-## 📁 Project Structure
+## 📁 Estructura del Proyecto
 
 ```txt
 .
-├── _config.yml             # Site configuration
-├── _layouts/               # Page layouts
-│   ├── resume.html         # Single-language resume layout
-│   └── resume-i18n.html    # Bilingual resume layout (used by both index pages)
-├── _includes/              # Reusable components
+├── _config.yml             # Configuración del sitio
+├── _layouts/               # Layouts de página
+│   ├── resume.html         # Layout de currículum monolingüe
+│   └── resume-i18n.html    # Layout de currículum bilingüe (usado por ambas páginas de inicio)
+├── _includes/              # Componentes reutilizables
 │   ├── head.html
 │   ├── icon-links.html
 │   ├── print-social-links.html
-│   └── icons/              # SVG icons for social links
-├── _sass/                  # Stylesheets (partials)
+│   └── icons/              # Íconos SVG para enlaces sociales
+├── _sass/                  # Hojas de estilo (partials)
 │   ├── _base.scss
-│   ├── _i18n.scss          # Language switcher styles
+│   ├── _i18n.scss          # Estilos del selector de idioma
 │   ├── _layout.scss
 │   ├── _mixins.scss
 │   ├── _normalize.scss
 │   ├── _resume.scss
 │   └── _variables.scss
-├── _data/                  # Content data
-│   ├── en/                 # English content
+├── _data/                  # Datos de contenido
+│   ├── en/                 # Contenido en inglés
 │   │   ├── strings.yml
 │   │   ├── experience.yml
 │   │   ├── education.yml
@@ -54,45 +54,45 @@ Use the language switcher in the top-right corner to toggle between languages.
 │   │   ├── projects.yml
 │   │   ├── recognitions.yml
 │   │   └── links.yml
-│   └── es/                 # Spanish content (file-for-file mirror of en/)
-│       └── (same structure)
-├── css/                    # Top-level SCSS entry points
+│   └── es/                 # Contenido en español (espejo archivo por archivo de en/)
+│       └── (misma estructura)
+├── css/                    # Puntos de entrada SCSS de nivel superior
 │   ├── main.scss
 │   └── markdown-styles.css
-├── images/                 # Static assets
+├── images/                 # Assets estáticos
 │   └── avatar.jpg
-├── index.html              # English homepage (lang: en)
+├── index.html              # Página de inicio en inglés (lang: en)
 ├── es/
-│   └── index.html          # Spanish homepage (lang: es)
+│   └── index.html          # Página de inicio en español (lang: es)
 ├── .github/
 │   ├── dependabot.yml
 │   └── workflows/
-│       └── jekyll.yml      # GitHub Pages deploy
-├── .gitignore              # Jekyll / Ruby / IDE / OS / agent state
-├── .gitattributes          # LF line endings, binary asset hints
-├── .dockerignore           # Keeps `docker build` context small
-├── Dockerfile              # ruby:3.2-slim + bundler 4.0.6 for local dev
-├── Gemfile                 # Ruby dependencies
-└── Gemfile.lock            # Pinned versions (kept tracked for reproducible builds)
+│       └── jekyll.yml      # Deploy de GitHub Pages
+├── .gitignore              # Jekyll / Ruby / IDE / SO / estado del agente
+├── .gitattributes          # Fin de línea LF, hints para assets binarios
+├── .dockerignore           # Mantiene chico el contexto de `docker build`
+├── Dockerfile              # ruby:3.2-slim + bundler 4.0.6 para desarrollo local
+├── Gemfile                 # Dependencias de Ruby
+└── Gemfile.lock            # Versiones pineadas (se mantiene tracked para builds reproducibles)
 ```
 
-## 🚀 Local Development
+## 🚀 Desarrollo Local
 
-You can run the site locally either with a host Ruby installation or with Docker (recommended — avoids fighting bundle version mismatches against the system Ruby).
+Se puede correr el sitio localmente tanto con una instalación de Ruby en el host como con Docker (recomendado — evita pelearse con desajustes de versión de bundle contra el Ruby del sistema).
 
-### 🐳 Option A: Docker (recommended)
+### 🐳 Opción A: Docker (recomendado)
 
-This repo ships a `Dockerfile` that mirrors the GitHub Pages CI exactly: `ruby:3.2-slim` plus the same `bundler 4.0.6` pinned by `Gemfile.lock`. A successful `docker build && docker run` is equivalent to the production build.
+Este repositorio incluye un `Dockerfile` que refleja exactamente el CI de GitHub Pages: `ruby:3.2-slim` más el mismo `bundler 4.0.6` pineado por `Gemfile.lock`. Un `docker build && docker run` exitoso equivale al build de producción.
 
-Prerequisites: [Docker](https://docs.docker.com/get-docker/) 20+.
+Prerrequisitos: [Docker](https://docs.docker.com/get-docker/) 20+.
 
-1. Build the image:
+1. Construir la imagen:
 
    ```bash
    docker build -t christian-grimberg-cv .
    ```
 
-2. Run the dev server with live-reload. The bind mount lets you edit `_data/`, `_layouts/`, `_sass/`, etc. on the host and see changes instantly:
+2. Correr el servidor de desarrollo con live-reload. El bind mount permite editar `_data/`, `_layouts/`, `_sass/`, etc. en el host y ver los cambios al instante:
 
    ```bash
    docker run --rm -p 4000:4000 \
@@ -100,106 +100,106 @@ Prerequisites: [Docker](https://docs.docker.com/get-docker/) 20+.
      christian-grimberg-cv
    ```
 
-3. Open your browser to [http://localhost:4000](http://localhost:4000).
+3. Abrir el navegador en [http://localhost:4000](http://localhost:4000).
 
-> **Tip:** `--force_polling` is enabled in the Dockerfile so live-reload works on Docker Desktop for macOS, where inotify isn't available. On Linux you can drop it.
+> **Tip:** `--force_polling` está habilitado en el Dockerfile para que live-reload funcione en Docker Desktop para macOS, donde inotify no está disponible. En Linux se puede quitar.
 
-### 🛠 Option B: Host Ruby
+### 🛠 Opción B: Ruby en el Host
 
-Prerequisites: Ruby 3.2+, Bundler.
+Prerrequisitos: Ruby 3.2+, Bundler.
 
-1. Clone the repository:
+1. Clonar el repositorio:
 
    ```bash
    git clone https://github.com/ChristianGrimberg/ChristianGrimberg.github.io.git
    cd ChristianGrimberg.github.io
    ```
 
-2. Install dependencies:
+2. Instalar dependencias:
 
    ```bash
    bundle install
    ```
 
-3. Run the local server:
+3. Correr el servidor local:
 
    ```bash
    bundle exec jekyll serve
    ```
 
-4. Open your browser to [http://localhost:4000](http://localhost:4000).
+4. Abrir el navegador en [http://localhost:4000](http://localhost:4000).
 
-## 📝 Updating Content
+## 📝 Actualizar Contenido
 
-### Editing Resume Information
+### Editar Información del Currículum
 
-All resume content is stored in YAML files under `_data/en/` and `_data/es/`:
+Todo el contenido del currículum está almacenado en archivos YAML bajo `_data/en/` y `_data/es/`:
 
-- **Experience**: Edit `experience.yml`
-- **Education**: Edit `education.yml`
-- **Skills**: Edit `skills.yml`
-- **Projects**: Edit `projects.yml`
-- **Certifications**: Edit `recognitions.yml`
-- **Links**: Edit `links.yml`
-- **UI Strings**: Edit `strings.yml`
+- **Experiencia**: Editar `experience.yml`
+- **Educación**: Editar `education.yml`
+- **Habilidades**: Editar `skills.yml`
+- **Proyectos**: Editar `projects.yml`
+- **Certificaciones**: Editar `recognitions.yml`
+- **Enlaces**: Editar `links.yml`
+- **Strings de UI**: Editar `strings.yml`
 
-### Adding a New Job Experience
+### Agregar una Nueva Experiencia Laboral
 
-Add to `_data/en/experience.yml` (and Spanish equivalent):
-
-```yaml
-- company: Company Name
-  position: Job Title
-  duration: Start Year &mdash; End Year (or Present)
-  summary: Description of your role and achievements.
-```
-
-### Adding a New Skill
-
-Add to `_data/en/skills.yml` (and Spanish equivalent):
+Agregar a `_data/en/experience.yml` (y su equivalente en español):
 
 ```yaml
-- skill: Skill Name
-  description: Description of your expertise in this area.
+- company: Nombre de la Empresa
+  position: Título del Puesto
+  duration: Año de Inicio &mdash; Año de Fin (o Presente)
+  summary: Descripción de tu rol y logros.
 ```
 
-## 🎨 Customization
+### Agregar una Nueva Habilidad
 
-### Colors and Theme
-
-Edit `_sass/_variables.scss` to change colors and fonts.
-
-### Avatar Image
-
-Replace `images/avatar.jpg` with your own photo (keep the same filename, or update `resume_avatar` in `_config.yml`).
-
-### Contact Information
-
-Update in `_config.yml`:
+Agregar a `_data/en/skills.yml` (y su equivalente en español):
 
 ```yaml
-resume_contact_email: "your.email@example.com"
-resume_contact_address: "Your City, Country"
+- skill: Nombre de la Habilidad
+  description: Descripción de tu experiencia en esta área.
 ```
 
-## 🚢 Deployment
+## 🎨 Personalización
 
-The site automatically deploys via GitHub Actions when changes are pushed to the `main` branch.
+### Colores y Tema
 
-### Manual Deployment
+Editar `_sass/_variables.scss` para cambiar colores y fuentes.
+
+### Imagen de Avatar
+
+Reemplazar `images/avatar.jpg` con tu propia foto (mantener el mismo nombre de archivo, o actualizar `resume_avatar` en `_config.yml`).
+
+### Información de Contacto
+
+Actualizar en `_config.yml`:
+
+```yaml
+resume_contact_email: "tu.email@example.com"
+resume_contact_address: "Tu Ciudad, País"
+```
+
+## 🚢 Deploy
+
+El sitio se deploya automáticamente vía GitHub Actions cuando se pushea a la rama `main`.
+
+### Deploy Manual
 
 ```bash
 bundle exec jekyll build
-# Output will be in _site/
+# El output quedará en _site/
 ```
 
-## 📄 License
+## 📄 Licencia
 
-The resume template is based on [jglovier/resume-template](https://github.com/jglovier/resume-template) under the MIT License.
+La plantilla del currículum está basada en [jglovier/resume-template](https://github.com/jglovier/resume-template) bajo la Licencia MIT.
 
-The content and personal information are © Christian Grimberg.
+El contenido y la información personal son © Christian Grimberg.
 
-## 📧 Contact
+## 📧 Contacto
 
 - **Email**: [christian.grimberg@outlook.com](mailto:christian.grimberg@outlook.com)
 - **LinkedIn**: [linkedin.com/in/christiangrimberg](https://www.linkedin.com/in/christiangrimberg)
