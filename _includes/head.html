@@ -15,4 +15,5 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png" />
+  <script>(function(){try{var stored=localStorage.getItem('theme');var resolved=stored;if(resolved!=='light'&&resolved!=='dark')resolved=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',resolved);}catch(e){document.documentElement.setAttribute('data-theme','light');}})();</script>
 </head>
