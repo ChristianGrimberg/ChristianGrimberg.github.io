@@ -18,6 +18,7 @@
 
         <!-- Language switcher and PDF download -->
         <div class="language-switcher no-print">
+          {% include dark-mode-toggle.html %}
           {% if page.lang == 'en' %}
             <a href="{{ site.baseurl }}/es/" class="lang-link">🇪🇸 Español</a>
           {% else %}
