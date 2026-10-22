@@ -204,3 +204,13 @@ El contenido y la información personal son © Christian Grimberg.
 - **Email**: [christian.grimberg@outlook.com](mailto:christian.grimberg@outlook.com)
 - **LinkedIn**: [linkedin.com/in/christiangrimberg](https://www.linkedin.com/in/christiangrimberg)
 - **GitHub**: [github.com/ChristianGrimberg](https://github.com/ChristianGrimberg)
+
+
+## Presentación y CV resumido
+
+- El perfil completo mantiene los 37 proyectos en un archivo desplegable y destaca seis iniciativas mediante `featured: true` en ambos `projects.yml`. Los IDs deben coincidir entre idiomas.
+- `/cv/` y `/es/cv/` son versiones resumidas independientes para imprimir o guardar como PDF. El objetivo de maquetación es de dos páginas; el resultado depende del navegador, papel y ajustes de impresión. Usar escala 100 %, sin encabezados/pies del navegador.
+- Los resúmenes para impresión se mantienen en `print_summary` dentro de `experience.yml`, sin eliminar la trayectoria completa.
+- `css/modern.css` contiene el diseño responsive y las reglas de impresión; conserva el selector de modo oscuro.
+- Las certificaciones y reconocimientos se distinguen mediante `kind` en `recognitions.yml`. No añadir credenciales sin confirmar.
+- El workflow `Validate bilingual CV` construye Jekyll y ejecuta `ruby script/validate_cv.rb` en pull requests; no despliega. El despliegue existente sigue limitado a `main`.

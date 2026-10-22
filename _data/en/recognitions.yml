@@ -1,21 +1,19 @@
-# Certifications & Recognition
-- award: "Microsoft Certified: Azure Data Fundamentals (DP-900)"
+- award: 'Microsoft Certified: Azure Data Fundamentals (DP-900)'
   organization: Microsoft
-  year: "2023"
-  summary: >
-    Validated foundational knowledge of core data concepts and Azure
-    data services.
+  year: '2023'
+  summary: 'Validated foundational knowledge of core data concepts and Azure data services.
 
-- award: "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)"
+    '
+  kind: certification
+- award: 'Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)'
   organization: Microsoft
-  year: "2023"
-  summary: >
-    Demonstrated understanding of security, compliance, and identity
-    concepts across Microsoft cloud services.
+  year: '2023'
+  summary: 'Demonstrated understanding of security, compliance, and identity concepts across Microsoft cloud services.
 
-- award: "Microsoft Active Professional"
+    '
+  kind: certification
+- award: Microsoft Active Professional
   organization: Microsoft
-  year: "2013"
-  summary: >-
-    Community recognition for active participation in Microsoft
-    technical communities and events.
+  year: '2013'
+  summary: Community recognition for active participation in Microsoft technical communities and events.
+  kind: recognition

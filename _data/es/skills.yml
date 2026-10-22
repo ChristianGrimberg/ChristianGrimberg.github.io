@@ -1,47 +1,34 @@
-# Habilidades Técnicas
-- skill: "Soluciones Cloud (IaaS, PaaS, SaaS e IaC)"
-  description: >
-    Especialista en Microsoft Azure para el diseño e implementación de
-    soluciones de infraestructura Cloud e híbrida escalables.
+- skill: Soluciones Cloud (IaaS, PaaS, SaaS e IaC)
+  description: 'Especialista en Microsoft Azure para el diseño e implementación de soluciones de infraestructura Cloud e híbrida escalables.
 
-- skill: "Desarrollo de Software (plataforma .NET)"
-  description: >
-    Desarrollo backend y de aplicaciones sobre la plataforma .NET,
-    incluyendo buenas prácticas de código limpio e ingeniería de
-    software moderna.
+    '
+- skill: Desarrollo de Software (plataforma .NET)
+  description: 'Desarrollo backend y de aplicaciones sobre la plataforma .NET, incluyendo buenas prácticas de código limpio e ingeniería de software moderna.
 
-- skill: "Bases de Datos (SQL Server y MySQL)"
-  description: >
-    Administración y desarrollo de bases de datos relacionales con
-    SQL Server y MySQL, incluyendo ORM con Entity Framework Core.
+    '
+- skill: Bases de Datos (SQL Server y MySQL)
+  description: 'Administración y desarrollo de bases de datos relacionales con SQL Server y MySQL, incluyendo ORM con Entity Framework Core.
 
-- skill: "Soluciones IoT"
-  description: >
-    Desarrollo de soluciones IoT con Arduino, integrando dispositivos
-    físicos con sistemas de software.
+    '
+- skill: Datos e IA aplicada
+  description: Microsoft Fabric, Microsoft 365 Copilot y Copilot Studio, con experiencia en integración de datos, analítica y automatización de flujos de trabajo.
+- skill: Soluciones IoT
+  description: 'Desarrollo de soluciones IoT con Arduino, integrando dispositivos físicos con sistemas de software.
 
-- skill: "Networking (Cisco, Fortinet y Watchguard)"
-  description: >
-    Administración de redes con switches Cisco, routers Fortinet y
-    firewalls Watchguard.
+    '
+- skill: Redes y seguridad perimetral
+  description: Administración de redes con Cisco y Fortinet. Experiencia previa con Watchguard y migración de la seguridad perimetral a Fortinet.
+- skill: Contenedores y Orquestación
+  description: 'Despliegue de contenedores Docker en producción. Orquestación con Docker Swarm en producción y Kubernetes como interés personal.
 
-- skill: "Contenedores y Orquestación"
-  description: >
-    Despliegue de contenedores Docker en producción. Orquestación con
-    Docker Swarm en producción y Kubernetes como interés personal.
+    '
+- skill: Administración de Servidores
+  description: 'Administración de parques de Windows Server y Linux (Ubuntu Server, CentOS), incluyendo instalación, hardening y mantenimiento continuo.
 
-- skill: "Administración de Servidores"
-  description: >
-    Administración de parques de Windows Server y Linux (Ubuntu Server,
-    CentOS), incluyendo instalación, hardening y mantenimiento continuo.
+    '
+- skill: Control de Versiones y DevOps
+  description: 'Ciclo de vida del desarrollo de software con Git y Azure DevOps: versionado, colaboración y CI/CD. Publicación de módulos en PowerShell Gallery.'
+- skill: Scripting (PowerShell y GNU Bash)
+  description: 'Automatización de tareas operativas y de despliegue repetitivas mediante scripting con PowerShell y GNU Bash Shell.
 
-- skill: "Control de Versiones y DevOps"
-  description: >
-    Ciclo de vida de Desarrollo de Software con Git, Azure DevOps,
-    GitHub Actions, GitHub Packages, GitHub Registry y PowerShell
-    Gallery.
-
-- skill: "Scripting (PowerShell y GNU Bash)"
-  description: >
-    Automatización de tareas operativas y de despliegue repetitivas
-    mediante scripting con PowerShell y GNU Bash Shell.
+    '
