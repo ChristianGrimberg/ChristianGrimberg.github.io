@@ -11,11 +11,12 @@
     <header class="print-header">
       <h1>{{ site.resume_name }}</h1><p class="profile-role">{{ s.job_title }}</p><p class="profile-specialty">{{ s.specialty }}</p>
       <p class="print-contact">{{ site.resume_contact_address }} · <a href="mailto:{{ site.resume_contact_email }}">{{ site.resume_contact_email }}</a><br><a href="{{ site.resume_social_links.resume_linkedin_url }}">linkedin.com/in/christiangrimberg</a></p>
+      <h2>{{ s.print_summary_heading }}</h2>
       <div class="profile-summary">{{ s.executive_summary }}</div>
     </header>
     <section class="print-section"><h2>{{ s.section_experience }}</h2>
       {% for job in cv.experience limit:3 %}
-      <article class="print-job">{% if forloop.first %}<h3>{{ job.company }}</h3>{% endif %}<h4>{{ job.position }} <span>· {{ job.duration }}</span></h4><p>{{ job.print_summary | default: job.summary }}</p></article>
+      <article class="print-job"><h3>{{ job.company }}</h3><h4>{{ job.position }} <span>· {{ job.duration }}</span></h4><p>{{ job.print_summary | default: job.summary }}</p></article>
       {% endfor %}
       <h3>{{ s.section_previous }}</h3>
       {% for job in cv.experience offset:3 %}<p class="earlier-job"><strong>{{ job.position }}</strong> · {{ job.company }} · {{ job.duration }}</p>{% endfor %}
@@ -24,9 +25,11 @@
       {% assign featured = cv.projects | where: 'featured', true %}
       {% for project in featured %}<article><h3>{{ project.project }}</h3><p>{{ project.description }}</p></article>{% endfor %}
     </section>
-    <section class="print-section"><h2>{{ s.technologies }}</h2><p>Azure · Azure DevOps · .NET · SQL Server · PowerShell · Microsoft Fabric · Microsoft 365 Copilot · Copilot Studio · Cisco · Fortinet · Docker</p></section>
-    <section class="print-section"><h2>{{ s.section_certifications }} / {{ s.section_education }}</h2>
+    <section class="print-section"><h2>{{ s.section_skills }}</h2><p>Azure · Azure DevOps · .NET · SQL Server · PowerShell · Microsoft Fabric · Microsoft 365 Copilot · Copilot Studio · Cisco · Fortinet · Docker</p></section>
+    <section class="print-section"><h2>{{ s.section_certifications }}</h2>
       {% for recognition in cv.recognitions %}{% if recognition.kind == 'certification' %}<p>{{ recognition.award }} · {{ recognition.year }}</p>{% endif %}{% endfor %}
+    </section>
+    <section class="print-section"><h2>{{ s.section_education }}</h2>
       {% for education in cv.education %}<p>{{ education.degree }} · {{ education.uni }} · {{ education.year }}</p>{% endfor %}
     </section>
   </main>
