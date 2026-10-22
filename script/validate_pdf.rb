@@ -9,7 +9,8 @@ def read_data(lang, name)
   YAML.safe_load(File.read(File.join(ROOT, '_data', lang, "#{name}.yml")))
 end
 def plain(value)
-  CGI.unescapeHTML(value.to_s.gsub(/<[^>]*>/, ' ')).unicode_normalize(:nfc).gsub(/[[:space:]]+/, ' ').strip
+  # CGI decodes basic/numeric entities; dates also use this named HTML entity.
+  CGI.unescapeHTML(value.to_s.gsub('&mdash;', "\u2014").gsub(/<[^>]*>/, ' ')).unicode_normalize(:nfc).gsub(/[[:space:]]+/, ' ').strip
 end
 def run!(*args)
   output, error, status = Open3.capture3(*args)
@@ -43,6 +44,7 @@ config = YAML.safe_load(File.read(File.join(ROOT, '_config.yml')))
     expected += read_data(lang, 'experience').flat_map { |job| [job.fetch('company'), job.fetch('position'), job.fetch('duration')] }
     expected += read_data(lang, 'recognitions').select { |item| item['kind'] == 'certification' }.map { |item| item.fetch('award') }
     expected += read_data(lang, 'education').flat_map { |item| [item.fetch('degree'), item.fetch('uni'), item.fetch('year')] }
+    expected += read_data(lang, 'projects').select { |item| item['featured'] }.map { |item| item.fetch('project') }
     expected += ['Azure DevOps', '.NET', 'SQL Server', 'PowerShell', 'Microsoft Fabric', 'Microsoft 365 Copilot', 'Copilot Studio']
     expected.each { |value| assert!(text.include?(plain(value)), "#{lang}/#{mode}: missing readable text: #{plain(value)}") }
     cursor = 0
