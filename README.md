@@ -214,3 +214,33 @@ El contenido y la información personal son © Christian Grimberg.
 - `css/modern.css` contiene el diseño responsive y las reglas de impresión; conserva el selector de modo oscuro.
 - Las certificaciones y reconocimientos se distinguen mediante `kind` en `recognitions.yml`. No añadir credenciales sin confirmar.
 - El workflow `Validate bilingual CV` construye Jekyll y ejecuta `ruby script/validate_cv.rb` en pull requests; no despliega. El despliegue existente sigue limitado a `main`.
+
+## Compatibilidad de lectura ATS (PDF resumido)
+
+Las vistas `/cv/` y `/es/cv/` usan una columna de texto seleccionable, sin foto,
+tablas ni información esencial en encabezados/pies repetidos. El resumen,
+experiencia, competencias técnicas, certificaciones y educación tienen títulos
+explícitos; cada cargo conserva empresa y fechas. El diseño del perfil web no cambia.
+
+Después de generar los PDFs con el workflow de revisión, ejecutar:
+
+```bash
+ruby script/validate_pdf.rb preview-artifacts
+```
+
+Requiere las herramientas `pdfinfo`, `pdffonts` y `pdftotext` de Poppler
+(`poppler-utils` en Ubuntu). CI verifica ambos idiomas, dos páginas A4, fuentes
+incrustadas con mapa Unicode, texto extraíble en orden de lectura y modo layout,
+y presencia de contacto, cargos, empresas, fechas, tecnologías y credenciales.
+Los errores bloquean la validación del PR. No se envía el CV a un servicio ATS.
+
+Estos controles detectan regresiones de legibilidad, **no garantizan superar un
+ATS ni asignan un puntaje de candidatura**. Los requisitos y palabras clave
+varían por vacante: adaptar el contenido solo con experiencia real y relevante,
+sin texto oculto ni acumulación artificial de términos. Revisar siempre los
+campos importados en la postulación y usar el formato pedido por el empleador.
+
+Referencias de proveedor (consultadas el 22/10/2026):
+- [Greenhouse: errores de parsing y formatos complejos](https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse)
+- [Greenhouse: parsing en idiomas distintos del inglés](https://support.greenhouse.io/hc/en-us/articles/205019689-Resume-parsing-with-non-English-languages)
+- [Greenhouse: filtros por palabras clave y criterios de búsqueda](https://support.greenhouse.io/hc/en-us/articles/27104809835291-Talent-Filtering)
