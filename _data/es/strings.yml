@@ -1,23 +1,33 @@
-# UI strings in Spanish
-site_title: "Christian Grimberg - Curriculum Vitae"
-job_title: "Jefe de Sistemas"
-executive_summary: "<p>Jefe de Sistemas con una trayectoria de más de 20 años en Laboratorios Novocap S.A. dentro de la Industria Farmacéutica, enfocado en la mejora continua a través del uso de la tecnología y en brindar soluciones que maximicen el valor para la organización. Especializado en infraestructura Cloud e híbrida, administración de redes y servidores, y liderazgo de proyectos bajo metodologías ágiles.</p>"
-contact_button: "Contáctame"
-not_looking: "No estoy buscando trabajo en este momento."
-
-# Section headers
-section_experience: "Experiencia Profesional"
-section_education: "Educación"
-section_continuing_education: "Cursos"
-section_projects: "Proyectos Destacados"
-section_skills: "Habilidades Técnicas"
-section_recognition: "Certificaciones y Reconocimientos"
-section_links: "Enlaces Adicionales"
-section_social: "Enlaces Sociales"
-section_associations: "Asociaciones"
-section_interests: "Intereses Personales"
-
-# Other
-language_name: "Español"
-switch_to: "Switch to English"
-download_pdf: "Descargar PDF"
+site_title: Christian Grimberg - Curriculum Vitae
+job_title: Jefe de Sistemas
+executive_summary: '<p>Trabajo para que la tecnología resuelva problemas concretos y acompañe la evolución del negocio. Como Jefe de Sistemas en Laboratorios Novocap, combino el liderazgo del área con el trabajo técnico: infraestructura cloud e híbrida, integración de sistemas y automatización de procesos.</p><p>Mi recorrido en la industria farmacéutica incluye la implementación de SAP S/4HANA y soluciones con .NET, SQL Server y PowerShell. También trabajo con Azure DevOps, Microsoft Fabric, Microsoft 365 Copilot y Copilot Studio para conectar datos, procesos y herramientas útiles para la organización.</p>'
+contact_button: Contáctame
+not_looking: No estoy buscando trabajo en este momento.
+section_experience: Experiencia Profesional
+section_education: Educación
+section_continuing_education: Cursos
+section_projects: Proyectos Destacados
+section_skills: Habilidades Técnicas
+section_recognition: Certificaciones y Reconocimientos
+section_links: Enlaces Adicionales
+section_social: Enlaces Sociales
+section_associations: Asociaciones
+section_interests: Intereses Personales
+language_name: Español
+switch_to: Switch to English
+download_pdf: Descargar PDF
+specialty: Cloud, automatización e IA aplicada
+section_archive: Trayectoria de proyectos
+archive_hint: Ver los 37 proyectos
+section_previous: Experiencia anterior
+section_certifications: Certificaciones
+section_awards: Reconocimientos
+technologies: Tecnologías
+connect: Conectemos en LinkedIn
+print_resume: CV resumido / PDF
+print_hint: Versión resumida para compartir. En el diálogo de impresión, elegí «Guardar como PDF».
+print_action: Imprimir / guardar PDF
+back: Volver al perfil completo
+skip: Ir al contenido
+theme_label: Cambiar tema
+archive_intro: Una selección de iniciativas de mi recorrido profesional. Los proyectos no indican un estado actual ni están ordenados por fecha.

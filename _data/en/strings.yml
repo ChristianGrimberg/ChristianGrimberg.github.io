@@ -1,23 +1,33 @@
-# UI strings in English
-site_title: "Christian Grimberg - Resume"
-job_title: "Head of Systems"
-executive_summary: "<p>Head of Systems with over 20 years of experience at Laboratorios Novocap S.A. in the pharmaceutical industry. Focused on continuous improvement through the use of technology and on delivering solutions that maximize value for the organization. Specialized in Cloud and hybrid infrastructure, network and server administration, and agile project leadership.</p>"
-contact_button: "Contact me"
-not_looking: "I'm not looking for work right now."
-
-# Section headers
-section_experience: "Professional Experience"
-section_education: "Education"
-section_continuing_education: "Courses"
-section_projects: "Featured Projects"
-section_skills: "Technical Skills"
-section_recognition: "Certifications & Recognition"
-section_links: "Additional Links"
-section_social: "Social Links"
-section_associations: "Associations"
-section_interests: "Outside Interests"
-
-# Other
-language_name: "English"
-switch_to: "Cambiar a Español"
-download_pdf: "Download PDF"
+site_title: Christian Grimberg - Resume
+job_title: Head of Systems
+executive_summary: <p>I help technology solve practical problems and support the business as it evolves. As Head of Systems at Laboratorios Novocap, I combine team leadership with hands-on technical work across cloud and hybrid infrastructure, systems integration and process automation.</p><p>My experience in the pharmaceutical industry includes implementing SAP S/4HANA and building solutions with .NET, SQL Server and PowerShell. I also work with Azure DevOps, Microsoft Fabric, Microsoft 365 Copilot and Copilot Studio to connect data, processes and useful tools for the organization.</p>
+contact_button: Contact me
+not_looking: I'm not looking for work right now.
+section_experience: Professional Experience
+section_education: Education
+section_continuing_education: Courses
+section_projects: Featured Projects
+section_skills: Technical Skills
+section_recognition: Certifications & Recognition
+section_links: Additional Links
+section_social: Social Links
+section_associations: Associations
+section_interests: Outside Interests
+language_name: English
+switch_to: Cambiar a Español
+download_pdf: Download PDF
+specialty: Cloud, automation & applied AI
+section_archive: Project archive
+archive_hint: Explore all 37 projects
+section_previous: Earlier experience
+section_certifications: Certifications
+section_awards: Recognition
+technologies: Technologies
+connect: Connect on LinkedIn
+print_resume: Short resume / PDF
+print_hint: A concise version to share. Choose “Save as PDF” in the print dialog.
+print_action: Print / save PDF
+back: Back to full profile
+skip: Skip to content
+theme_label: Switch theme
+archive_intro: Initiatives from across my professional experience. This archive does not imply a current project status or chronological order.

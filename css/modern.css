@@ -1,0 +1,104 @@
+/* Modern bilingual profile. Plain CSS keeps the presentation portable. */
+.modern-resume { --accent:#087f8c; --accent-strong:#066672; --accent-soft:#e7f5f5; --bg-page:#f4f7f8; --bg-card:#fff; --text-primary:#18323d; --text-muted:#4c6570; --border:#d8e3e7; background:var(--bg-page); color:var(--text-primary); font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; margin:0; }
+[data-theme="dark"] .modern-resume { --accent:#72d4dc; --accent-strong:#a3edf0; --accent-soft:#173c44; --bg-page:#101e27; --bg-card:#172b36; --text-primary:#e5eff3; --text-muted:#afc5cf; --border:#35505e; }
+.modern-resume * { box-sizing:border-box; }
+.modern-resume a { color:var(--accent-strong); text-decoration-thickness:1px; text-underline-offset:4px; }
+.modern-resume a:hover { text-decoration:underline; }
+.modern-resume :focus-visible { outline:3px solid var(--accent); outline-offset:5px; }
+.modern-resume h1,.modern-resume h2,.modern-resume h3,.modern-resume h4 { font-family:inherit; line-height:1.25; color:var(--text-primary); margin:0 0 .7rem; }
+.modern-resume p { margin:0 0 1rem; }
+.modern-resume h1 { font-size:clamp(2rem,4.5vw,3.25rem); letter-spacing:-.045em; font-weight:750; }
+.modern-resume h2 { font-size:1.55rem; letter-spacing:-.025em; }
+.modern-resume h3 { font-size:1.1rem; }
+.modern-resume h4 { font-size:1.05rem; }
+.resume-shell { width:min(1060px,100% - 64px); margin:40px auto; }
+.profile-header { background:var(--bg-card); border:1px solid var(--border); border-top:5px solid var(--accent); border-radius:18px; padding:24px 44px 36px; box-shadow:0 8px 35px #102e3a08; }
+.utility-nav { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:16px; margin-bottom:32px; font-size:.86rem; }
+.profile-identity { display:flex; align-items:center; gap:28px; margin-bottom:26px; }
+.profile-photo { width:112px; height:112px; object-fit:cover; border-radius:50%; border:4px solid var(--accent-soft); }
+.modern-resume .eyebrow { color:var(--text-muted); font-size:.78rem; font-weight:650; letter-spacing:.055em; margin-bottom:.65rem; }
+.modern-resume .profile-role { font-size:1.35rem; font-weight:650; margin:0 0 .2rem; }
+.profile-specialty { color:var(--accent-strong); font-weight:500; }
+.profile-summary { max-width:83ch; }
+.profile-summary p { margin-bottom:.9rem; }
+.tech-badges { display:flex; gap:8px; flex-wrap:wrap; list-style:none; padding:0; margin:22px 0; }
+.tech-badges li { border:1px solid var(--border); border-radius:6px; font-size:.78rem; font-weight:650; padding:5px 11px; background:var(--accent-soft); }
+.text-link { font-weight:650; font-size:.92rem; }
+.modern-resume .button { display:inline-block; border:1px solid var(--accent-strong); border-radius:7px; padding:10px 17px; background:var(--accent-strong); color:var(--bg-card); font-family:inherit; font-size:.9rem; font-weight:600; line-height:1.4; cursor:pointer; text-decoration:none; }
+.modern-resume .button-small { padding:8px 12px; font-size:.85rem; }
+.section-nav { display:flex; gap:24px; flex-wrap:wrap; border-bottom:1px solid var(--border); padding:25px 4px; font-size:.88rem; font-weight:600; }
+.section-nav a { text-decoration:none; }
+.cv-section { padding:40px 4px; border-bottom:1px solid var(--border); scroll-margin-top:24px; }
+.cv-section > h2 { margin-bottom:28px; }
+.employer-group { display:grid; grid-template-columns:240px 1fr; gap:40px; margin-bottom:28px; }
+.employer-group:last-child { margin-bottom:0; }
+.employer-group > h3 { font-size:1rem; }
+.career-timeline { border-left:2px solid var(--border); padding-left:26px; }
+.career-role { position:relative; padding-bottom:25px; }
+.career-role:last-child { padding-bottom:0; }
+.career-role:before { content:""; position:absolute; left:-32px; top:6px; width:10px; height:10px; border:2px solid var(--bg-page); border-radius:50%; background:var(--accent); }
+.modern-resume .date-label { color:var(--text-muted); font-size:.84rem; margin-bottom:.65rem; }
+.career-role p:last-child { margin-bottom:0; }
+.project-grid,.skills-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+.project-card { background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:25px; }
+.project-card h3 { font-size:1.15rem; }
+.project-card p:last-child { font-size:.94rem; margin-bottom:0; }
+.project-archive,.course-archive { margin-top:24px; }
+.modern-resume summary { cursor:pointer; color:var(--accent-strong); font-weight:650; padding:14px 0; }
+.section-intro { color:var(--text-muted); font-size:.9rem; }
+.skills-grid { gap:25px 40px; }
+.skills-grid p { font-size:.94rem; margin-bottom:0; }
+.credential { margin-bottom:25px; }
+.credential:last-child { margin-bottom:0; }
+.subsection-heading { margin-top:32px!important; }
+.profile-footer { display:flex; flex-wrap:wrap; gap:20px; padding:25px 4px; font-size:.85rem; color:var(--text-muted); }
+.profile-footer span { margin-right:auto; }
+.skip-link { position:absolute; top:-100px; left:20px; padding:12px; background:var(--bg-card); z-index:10; }
+.skip-link:focus { top:10px; }
+.modern-resume .dark-mode-toggle { width:38px; height:38px; border:1px solid var(--border); background:var(--bg-card); color:var(--text-primary); }
+.print-toolbar { max-width:800px; margin:28px auto; padding:0 24px; }
+.print-toolbar p { font-size:.9rem; margin:15px 0; }
+.print-document { max-width:210mm; background:var(--bg-card); padding:18mm; margin:24px auto 48px; box-shadow:0 4px 30px #0001; font-size:10pt; line-height:1.45; }
+.print-document h1 { font-size:27pt; }
+.print-document h2 { font-size:13pt; padding-bottom:4px; border-bottom:1px solid var(--border); margin:14px 0 9px; }
+.print-document h3,.print-document h4 { font-size:10pt; margin:0 0 4px; }
+.print-document p { margin:0 0 7px; }
+.print-document .profile-role { font-size:14pt; }
+.print-document .profile-specialty { font-size:11pt; }
+.print-contact { font-size:8.8pt; margin:10px 0 12px!important; }
+.print-job { margin-bottom:9px; }
+.print-job h4 span { font-weight:400; }
+.earlier-job { font-size:8.8pt; }
+.print-projects article { margin-bottom:9px; }
+@media(max-width:700px) {
+ .resume-shell { width:calc(100% - 28px); margin:14px auto; }
+ .profile-header { padding:18px 23px 28px; border-radius:12px; }
+ .utility-nav { gap:12px; margin-bottom:28px; }
+ .profile-identity { align-items:flex-start; gap:18px; flex-direction:column; }
+ .profile-photo { width:84px; height:84px; }
+ .profile-role { font-size:1.2rem!important; }
+ .section-nav { gap:12px 20px; padding:20px 4px; }
+ .cv-section { padding:30px 8px; }
+ .employer-group { grid-template-columns:1fr; gap:12px; }
+ .project-grid,.skills-grid { grid-template-columns:1fr; }
+ .project-card { padding:22px; }
+ .print-document { padding:22px; margin:15px; }
+ .print-document h1 { font-size:24pt; }
+}
+@media print {
+ @page { size:A4; margin:12mm 14mm; }
+ .modern-resume,.modern-resume[data-theme="dark"],[data-theme="dark"] .modern-resume { --text-primary:#162c35; --text-muted:#40535c; --bg-page:#fff; --bg-card:#fff; --border:#c5d1d6; --accent:#087681; --accent-strong:#065c65; background:#fff; color:#162c35; }
+ .modern-resume .no-print,.skip-link { display:none!important; }
+ .print-document { padding:0; margin:0; max-width:none; box-shadow:none; font-size:9.5pt; line-height:1.4; }
+ .print-document h1 { font-size:25pt; }
+ .print-document h2 { break-after:avoid; }
+ .print-document h3,.print-document h4 { break-after:avoid; }
+ .print-document article,.print-document .earlier-job { break-inside:avoid; }
+ .print-projects { break-before:page; }
+ .print-document a { color:inherit; text-decoration:none; }
+ .resume-shell { width:auto; margin:0; }
+ .profile-header { box-shadow:none; padding:12px; }
+ .project-grid,.skills-grid,.employer-group { display:block; }
+ .project-card { break-inside:avoid; margin-bottom:12px; }
+ .profile-footer { display:none; }
+}

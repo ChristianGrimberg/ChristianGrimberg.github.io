@@ -1,58 +1,39 @@
-# Professional Experience
-- company: "Laboratorios Novocap S.A. (Buenos Aires, Argentina)"
-  position: "Head of Systems"
-  duration: "February 2014 &mdash; Present"
-  summary: >
-    Alignment of technology strategy with business goals. Conceptual
-    vision of the organization's technology architecture. Identification
-    of IT process improvement opportunities. Design and development of
-    Cloud and hybrid infrastructure solutions with DevOps methodologies.
-    Administration of processes under pharmaceutical quality standards.
-    Building of high-performance teams through coaching and mentoring.
-    Leadership of software implementation projects. Participation in
-    the definition of strategy in agreement with the different business
-    units. Project administration under the SCRUM Framework with
-    two-week sprints. Experience in roles such as Product Owner
-    and Scrum Master.
+- company: Laboratorios Novocap S.A. (Buenos Aires, Argentina)
+  position: Head of Systems
+  duration: February 2014 &mdash; Present
+  summary: 'Alignment of technology strategy with business goals. Conceptual vision of the organization''s technology architecture. Identification of IT process improvement opportunities. Design and development of Cloud and hybrid infrastructure solutions with DevOps methodologies. Administration of processes under pharmaceutical quality standards. Building of high-performance teams through coaching and mentoring. Leadership of software implementation projects. Participation in the definition of strategy in agreement with the different business units. Project administration under the SCRUM Framework with two-week sprints. Experience in roles such as Product Owner and Scrum Master.
 
-- company: "Laboratorios Novocap S.A. (Buenos Aires, Argentina)"
-  position: "Systems Supervisor"
-  duration: "March 2009 &mdash; February 2014"
-  summary: >
-    Coordination of the Systems area, supporting the alignment of
-    technology strategy with business goals. Hands-on supervision of
-    the organization's technology infrastructure and IT processes.
-    Coordination of software implementation projects and technical
-    suppliers. Foundation of DevOps practices and collaboration
-    patterns later scaled into the Head of Systems role.
+    '
+  print_summary: I lead technology strategy and systems projects in line with business goals and pharmaceutical quality standards. I design cloud and hybrid solutions, support process improvement and develop teams through coaching and mentoring. I work with Scrum as Product Owner and Scrum Master.
+- company: Laboratorios Novocap S.A. (Buenos Aires, Argentina)
+  position: Systems Supervisor
+  duration: March 2009 &mdash; February 2014
+  summary: 'Coordination of the Systems area, supporting the alignment of technology strategy with business goals. Hands-on supervision of the organization''s technology infrastructure and IT processes. Coordination of software implementation projects and technical suppliers. Foundation of DevOps practices and collaboration patterns later scaled into the Head of Systems role.
 
-- company: "Laboratorios Novocap S.A. (Buenos Aires, Argentina)"
-  position: "Maintenance Operator - Electromechanical Technician"
-  duration: "January 2006 &mdash; March 2009"
-  summary: >
-    Electromechanical installations in technical areas. Coordinated
-    maintenance of industrial equipment. Supervision and coordination
-    of technical suppliers.
+    '
+  print_summary: I coordinated infrastructure operations, software projects and technical suppliers, developing DevOps and collaboration practices within the team.
+- company: Laboratorios Novocap S.A. (Buenos Aires, Argentina)
+  position: Maintenance Operator - Electromechanical Technician
+  duration: January 2006 &mdash; March 2009
+  summary: 'Electromechanical installations in technical areas. Coordinated maintenance of industrial equipment. Supervision and coordination of technical suppliers.
 
-- company: "Válvulas Worcester de Argentina (Capital Federal, Buenos Aires, Argentina)"
-  position: "CNC Machine Operator (Lathes and Machining Centers)"
-  duration: "July 2005 &mdash; January 2006"
-  summary: >
-    Operation of computer numerically controlled (CNC) machines on
-    lathes and machining centers. Machining of parts for oilfield
-    valves. Maintenance and tuning of CNC programs.
+    '
+  print_summary: I carried out electromechanical installations, industrial equipment maintenance and supervision of technical suppliers.
+- company: Válvulas Worcester de Argentina (Capital Federal, Buenos Aires, Argentina)
+  position: CNC Machine Operator (Lathes and Machining Centers)
+  duration: July 2005 &mdash; January 2006
+  summary: 'Operation of computer numerically controlled (CNC) machines on lathes and machining centers. Machining of parts for oilfield valves. Maintenance and tuning of CNC programs.
 
-- company: "Cyber ZiOn (Banfield, Buenos Aires, Argentina)"
-  position: "PC Assembly & Repair Technician"
-  duration: "October 2003 &mdash; January 2006"
-  summary: >
-    Assembly and repair of in-store PCs. Technical advisory for
-    customers. Maintenance of the cybercafé system and the network
-    of 10 workstations.
+    '
+- company: Cyber ZiOn (Banfield, Buenos Aires, Argentina)
+  position: PC Assembly & Repair Technician
+  duration: October 2003 &mdash; January 2006
+  summary: 'Assembly and repair of in-store PCs. Technical advisory for customers. Maintenance of the cybercafé system and the network of 10 workstations.
 
-- company: "Reparaciones Banfield S.R.L. (Banfield, Buenos Aires, Argentina)"
-  position: "Home Appliance Repair Technician"
-  duration: "October 2002 &mdash; June 2005"
-  summary: >
-    Repair of all types of home appliances. Customer service and
-    advisory.
+    '
+- company: Reparaciones Banfield S.R.L. (Banfield, Buenos Aires, Argentina)
+  position: Home Appliance Repair Technician
+  duration: October 2002 &mdash; June 2005
+  summary: 'Repair of all types of home appliances. Customer service and advisory.
+
+    '

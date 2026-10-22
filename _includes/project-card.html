@@ -1,0 +1,5 @@
+<article class="project-card" id="{{ include.prefix }}{{ project.id }}">
+  <p class="eyebrow">{{ project.role }}</p>
+  <h3>{% if project.url %}<a href="{{ project.url }}">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+  <p>{{ project.description }}</p>
+</article>
