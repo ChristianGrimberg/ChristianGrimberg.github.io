@@ -244,3 +244,20 @@ Referencias de proveedor (consultadas el 22/10/2026):
 - [Greenhouse: errores de parsing y formatos complejos](https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse)
 - [Greenhouse: parsing en idiomas distintos del inglés](https://support.greenhouse.io/hc/en-us/articles/205019689-Resume-parsing-with-non-English-languages)
 - [Greenhouse: filtros por palabras clave y criterios de búsqueda](https://support.greenhouse.io/hc/en-us/articles/27104809835291-Talent-Filtering)
+
+## Dependencias de compilación
+
+El build de Actions usa directamente Jekyll 3.10 y `kramdown-parser-gfm`.
+Las plantillas son locales y `_config.yml` no activa plugins ni `remote_theme`.
+No se necesita el metapaquete `github-pages`: incorporaba `jekyll-remote-theme`
+0.4.3 y, por su restricción `< 3.0`, `rubyzip` 2.4.1, afectado por
+[GHSA-47m2-wp7j-p9vc](https://github.com/advisories/GHSA-47m2-wp7j-p9vc).
+La corrección elimina esa cadena completa; no fuerza una versión incompatible.
+El lock conserva las versiones y checksums de las dependencias que siguen en uso.
+
+El workflow de PR comprueba que esa cadena no reaparezca, compila el sitio,
+valida ambos idiomas y genera capturas de escritorio/móvil y PDFs de revisión.
+El despliegue sigue a cargo del workflow existente, limitado a `main` o ejecución
+manual. Esta configuración requiere el build personalizado de Actions; no
+pretende reproducir el conjunto de plugins del build administrado de Pages.
+Si se necesita un plugin nuevo, declararlo y configurarlo explícitamente.
