@@ -1,6 +1,9 @@
 site_title: Christian Grimberg - Resume
 job_title: Head of Systems
-executive_summary: <p>I help technology solve practical problems and support the business as it evolves. As Head of Systems at Laboratorios Novocap, I combine team leadership with hands-on technical work across cloud and hybrid infrastructure, systems integration and process automation.</p><p>My experience in the pharmaceutical industry includes implementing SAP S/4HANA and building solutions with .NET, SQL Server and PowerShell. I also work with Azure DevOps, Microsoft Fabric, Microsoft 365 Copilot and Copilot Studio to connect data, processes and useful tools for the organization.</p>
+executive_summary: >-
+  <p>I lead the IT team at Laboratorios Novocap, connecting technology with business priorities and the needs of the people who use it. I combine team and project leadership with hands-on technical involvement, from defining solutions through implementation.</p>
+  <p>Throughout my career in the pharmaceutical industry, I have contributed to technology initiatives including the implementation of SAP S/4HANA, Microsoft Azure solutions, systems integration and process automation. I also work with tools such as Microsoft Fabric and Copilot to explore new ways of using data and artificial intelligence.</p>
+  <p>I believe technology should make a practical difference: simplifying the way teams work, providing useful information for decisions and supporting the organization’s growth, while taking into account the quality and security requirements of the industry.</p>
 contact_button: Contact me
 not_looking: I'm not looking for work right now.
 section_experience: Professional Experience
