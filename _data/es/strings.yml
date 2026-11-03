@@ -1,6 +1,9 @@
 site_title: Christian Grimberg - Curriculum Vitae
 job_title: Jefe de Sistemas
-executive_summary: '<p>Trabajo para que la tecnología resuelva problemas concretos y acompañe la evolución del negocio. Como Jefe de Sistemas en Laboratorios Novocap, combino el liderazgo del área con el trabajo técnico: infraestructura cloud e híbrida, integración de sistemas y automatización de procesos.</p><p>Mi recorrido en la industria farmacéutica incluye la implementación de SAP S/4HANA y soluciones con .NET, SQL Server y PowerShell. También trabajo con Azure DevOps, Microsoft Fabric, Microsoft 365 Copilot y Copilot Studio para conectar datos, procesos y herramientas útiles para la organización.</p>'
+executive_summary: >-
+  <p>Lidero el área de Sistemas de Laboratorios Novocap, con el objetivo de conectar la tecnología con las prioridades del negocio y las necesidades de las personas que la utilizan. Combino la conducción del equipo y de los proyectos con una participación técnica activa, desde la definición de las soluciones hasta su implementación.</p>
+  <p>A lo largo de mi trayectoria en la industria farmacéutica, he participado en iniciativas de transformación tecnológica que incluyen la implementación de SAP S/4HANA, soluciones en Microsoft Azure, integración de sistemas y automatización de procesos. También trabajo con herramientas como Microsoft Fabric y Copilot para explorar nuevas formas de aprovechar los datos y la inteligencia artificial.</p>
+  <p>Me interesa que la tecnología tenga un impacto concreto: simplificar el trabajo de los equipos, brindar información útil para la toma de decisiones y acompañar el crecimiento de la organización, considerando siempre los requisitos de calidad y seguridad propios de la industria.</p>
 contact_button: Contáctame
 not_looking: No estoy buscando trabajo en este momento.
 section_experience: Experiencia Profesional
