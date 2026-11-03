@@ -13,6 +13,9 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+      - name: Verify unused archive dependencies stay removed
+        run: |
+          bundle exec ruby -rbundler -e 'blocked = Bundler.load.specs.map(&:name) & %w[github-pages jekyll-remote-theme rubyzip]; abort "Unexpected dependencies: #{blocked.join(", ")}" unless blocked.empty?'
       - name: Build site without deploying
         run: bundle exec jekyll build
         env:
