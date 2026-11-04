@@ -46,7 +46,7 @@ jobs:
       - name: Validate PDF text readability (not an ATS score)
         run: ruby script/validate_pdf.rb preview-artifacts
       - name: Upload review previews (no deployment)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: cv-review-previews
           path: preview-artifacts/
